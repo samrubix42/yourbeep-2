@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/mobiyqdc/s2s.brandcreatr.com/
+    - export DEPLOYPATH=/home4/mobiyqdc/gray.brandcreatr.com/
     - /bin/cp -R * $DEPLOYPATH 
