@@ -369,7 +369,7 @@ Signal Intelligence (BSI)</span>
                     Why Meditation Apps & Generic Self-Help Fail You
                 </h2>
                 <p class="text-sm sm:text-base text-slate-500 font-light font-sans max-w-2xl mx-auto">
-                    Most self-help methods try to treat the symptoms of stress rather than decoding the root cause. Here is why they don't stickand how BSI™ changes the game.
+                    Most self-help methods try to treat the symptoms of stress rather than decoding the root cause. Here is why they don't stick and how BSI™ changes the game.
                 </p>
             </div>
 
@@ -1431,7 +1431,7 @@ Signal Intelligence (BSI)</span>
                         <div class="mt-4 bg-emerald-950/40 border border-emerald-500/20 rounded-2xl p-4 text-left">
                             <span class="text-[10px] font-extrabold text-emerald-400 uppercase tracking-widest block mb-1">🛡️ 100% Risk-Free Guarantee</span>
                             <p class="text-[10px] text-slate-300 leading-relaxed font-light">
-                                If you don't discover at least 3 hidden behavior patterns holding you back in the first 30 minutes, drop us a message for a full refundno questions asked.
+                                If you don't discover at least 3 hidden behavior patterns holding you back in the first 30 minutes, drop us a message for a full refund—no questions asked.
                             </p>
                         </div>
                     </div>
