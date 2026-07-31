@@ -73,9 +73,15 @@
                 </div>
 
                 <!-- Sub-headline -->
-                <p class="text-base sm:text-lg text-slate-600 leading-relaxed font-light font-sans max-w-3xl mx-auto">
-                    Break Free from Hidden Burnout & Overthinking Loops in Just <strong class="text-teal-700 font-semibold">10 Minutes a Day</strong>—Without Meditations, Generic Affirmations, or 21-Day Challenges.
-                </p>
+                <div class="max-w-3xl mx-auto mt-6 p-6 rounded-2xl bg-amber-500/[0.03] border border-amber-500/20 shadow-xs backdrop-blur-xs relative overflow-hidden text-center">
+                    <!-- Subtle glow effect behind -->
+                    <div class="absolute -top-12 -left-12 w-24 h-24 bg-amber-500/10 rounded-full blur-xl pointer-events-none"></div>
+                    <div class="absolute -bottom-12 -right-12 w-24 h-24 bg-teal-500/10 rounded-full blur-xl pointer-events-none"></div>
+                    
+                    <p class="text-base sm:text-lg text-slate-700 leading-relaxed font-medium font-sans relative z-10">
+                        <span class="bg-gradient-to-r from-amber-600 to-rose-600 bg-clip-text text-transparent font-extrabold">Break Free</span> from <span class="text-slate-900 font-bold underline decoration-amber-500/60 decoration-wavy decoration-2">Hidden Burnout &amp; Overthinking Loops</span> in Just <span class="bg-teal-100/80 text-teal-800 px-2 py-0.5 rounded font-bold">10 Minutes a Day</span>Without Meditations, Generic Affirmations, or 21-Day Challenges.
+                    </p>
+                </div>
             </div>
 
             <!-- Form Section with Grid Split -->
@@ -363,7 +369,7 @@ Signal Intelligence (BSI)</span>
                     Why Meditation Apps & Generic Self-Help Fail You
                 </h2>
                 <p class="text-sm sm:text-base text-slate-500 font-light font-sans max-w-2xl mx-auto">
-                    Most self-help methods try to treat the symptoms of stress rather than decoding the root cause. Here is why they don't stick—and how BSI™ changes the game.
+                    Most self-help methods try to treat the symptoms of stress rather than decoding the root cause. Here is why they don't stickand how BSI™ changes the game.
                 </p>
             </div>
 
@@ -614,7 +620,7 @@ Signal Intelligence (BSI)</span>
     </section>
 
     <!-- WHO IS THIS FOR SECTION -->
-    <section class="w-full bg-white py-20 sm:py-24 relative overflow-hidden border-t border-slate-200/50">
+    <section class="w-full bg-white pt-20 pb-10 sm:pt-24 sm:pb-12 relative overflow-hidden border-t border-slate-200/50">
         <div class="absolute inset-0 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:32px_32px] opacity-35 pointer-events-none"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <!-- Section Header -->
@@ -680,256 +686,235 @@ Signal Intelligence (BSI)</span>
         </div>
     </section>
 
-    <!-- PRICING & COMPARISON SECTION -->
-    <section class="w-full bg-gradient-to-b from-slate-50 to-slate-100/60 py-20 sm:py-28 relative overflow-hidden border-t border-slate-200/50">
-        <!-- Background glows -->
-        <div class="absolute top-1/3 right-1/4 w-[400px] h-[400px] bg-teal-500/[0.03] rounded-full blur-[100px] pointer-events-none"></div>
-        <div class="absolute bottom-1/3 left-1/4 w-[400px] h-[400px] bg-indigo-500/[0.03] rounded-full blur-[100px] pointer-events-none"></div>
+        <!-- TESTIMONIALS SECTION -->
+    <section class="w-full bg-slate-950 py-20 sm:py-28 relative overflow-hidden border-t border-slate-900">
+        <!-- Background decorative glows -->
+        <div class="absolute top-1/2 left-1/4 w-[450px] h-[450px] bg-rose-500/[0.04] rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="absolute top-1/3 right-1/4 w-[450px] h-[450px] bg-teal-500/[0.04] rounded-full blur-[100px] pointer-events-none"></div>
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
-                <span class="text-xs font-bold text-teal-600 uppercase tracking-widest block font-sans">Choose Your Pathway</span>
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight font-sans">
-                    Masterclass or <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-emerald-600">Complete Program?</span>
-                </h2>
-                <p class="text-sm sm:text-base text-slate-500 font-light font-sans">
-                    Start where you are. Go as deep as you're ready for.
-                </p>
-            </div>
-
-            <!-- Comparison Table (Desktop View, lg and up) -->
-            <div class="hidden lg:block border border-slate-200 rounded-3xl overflow-hidden shadow-2xl bg-white">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="bg-slate-50/70 border-b border-slate-200">
-                            <th class="p-6 w-1/4 text-xs font-bold text-slate-400 uppercase tracking-wider align-middle">Features</th>
-                            <th class="p-6 w-3/8 text-left border-r border-slate-200/60 align-top">
-                                <div class="flex flex-col h-full justify-between space-y-4">
-                                    <div class="space-y-2">
-                                        <div class="inline-flex items-center gap-1.5 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-[10px] font-bold uppercase tracking-wider">
-                                            🎯 BSI Masterclass
-                                        </div>
-                                        <div class="flex items-baseline gap-2">
-                                            <span class="text-3xl font-black text-slate-900">₹299</span>
-                                            <span class="text-sm text-slate-400 line-through">₹499</span>
-                                        </div>
-                                    </div>
-                                    <a href="https://www.yourbeep.com/courses/6a41f00fdc0af597eb154d43/pricing" class="inline-flex items-center justify-center w-full bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold py-2.5 px-4 rounded-xl text-xs uppercase tracking-wider transition">
-                                        Start Masterclass
-                                    </a>
-                                </div>
-                            </th>
-                            <th class="p-6 w-3/8 text-left bg-gradient-to-br from-teal-500/[0.04] to-emerald-500/[0.04] border-t-4 border-t-teal-600 relative align-top">
-                                <div class="flex flex-col h-full justify-between space-y-4">
-                                    <div class="space-y-3">
-                                        <div class="flex items-center justify-between gap-2 flex-wrap">
-                                            <div class="inline-flex items-center gap-1.5 px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-[10px] font-bold uppercase tracking-wider">
-                                                🚀 Complete BSI Program
-                                            </div>
-                                            <span class="inline-flex px-2.5 py-0.5 bg-gradient-to-r from-teal-600 to-emerald-600 text-white text-[9px] font-extrabold uppercase tracking-widest rounded-full shadow-2xs">
-                                                Full Transformation
-                                            </span>
-                                        </div>
-                                        <div class="flex items-baseline gap-2">
-                                            <span class="text-3xl font-black text-slate-900">₹2999</span>
-                                            <span class="text-sm text-slate-400 line-through">₹5999</span>
-                                        </div>
-                                    </div>
-                                    <a href="https://www.yourbeep.com/courses/6a41f00fdc0af597eb154d43/pricing" class="inline-flex items-center justify-center w-full bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 text-white font-bold py-2.5 px-4 rounded-xl text-xs uppercase tracking-wider shadow-md shadow-teal-500/20 transition">
-                                        Get Complete Program
-                                    </a>
-                                </div>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-slate-100 text-sm align-top">
-                        <!-- BSI Framework -->
-                        <tr>
-                            <td class="p-6 font-bold text-slate-800 bg-slate-50/10">BSI Framework</td>
-                            <td class="p-6 text-slate-600 font-light border-r border-slate-100">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-emerald-500 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>Introduction to the 4-pillar approach  how to start reading your behavioural signals</span>
-                                </div>
-                            </td>
-                            <td class="p-6 text-slate-600 font-light bg-gradient-to-br from-teal-500/[0.01] to-emerald-500/[0.01]">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span><strong>A comprehensive, end-to-end behavioural reset</strong> across all four pillars</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- Educational Videos -->
-                        <tr>
-                            <td class="p-6 font-bold text-slate-800 bg-slate-50/10">Educational Videos</td>
-                            <td class="p-6 text-slate-600 font-light border-r border-slate-100">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-emerald-500 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>1 deep-dive video  45 mins</span>
-                                </div>
-                            </td>
-                            <td class="p-6 text-slate-600 font-light bg-gradient-to-br from-teal-500/[0.01] to-emerald-500/[0.01]">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span><strong>28 videos</strong> across 5 structured sections</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- Gamified Activities -->
-                        <tr>
-                            <td class="p-6 font-bold text-slate-800 bg-slate-50/10">Gamified Activities</td>
-                            <td class="p-6 text-slate-600 font-light border-r border-slate-100">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-emerald-500 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>6 activities across 4 pillars</span>
-                                </div>
-                            </td>
-                            <td class="p-6 text-slate-600 font-light bg-gradient-to-br from-teal-500/[0.01] to-emerald-500/[0.01]">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span><strong>45 activities</strong> across 4 pillars</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- Metrics -->
-                        <tr>
-                            <td class="p-6 font-bold text-slate-800 bg-slate-50/10">Metrics</td>
-                            <td class="p-6 text-slate-600 font-light border-r border-slate-100">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-emerald-500 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>Partial RQ  Somatic and Pattern Resonance scores</span>
-                                </div>
-                            </td>
-                            <td class="p-6 text-slate-600 font-light bg-gradient-to-br from-teal-500/[0.01] to-emerald-500/[0.01]">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span><strong>Full daily RQ tracking</strong>  Emotional, Somatic, and Pattern Resonance combined</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- Personalized Insights -->
-                        <tr>
-                            <td class="p-6 font-bold text-slate-800 bg-slate-50/10">Personalized Insights</td>
-                            <td class="p-6 text-slate-400 italic font-light border-r border-slate-100">
-                                <div class="flex items-start gap-2.5 text-slate-400 font-light">
-                                    <i class="ri-close-circle-line text-slate-300 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>Not included</span>
-                                </div>
-                            </td>
-                            <td class="p-6 text-slate-600 font-light bg-gradient-to-br from-teal-500/[0.01] to-emerald-500/[0.01]">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>Recommended action pathways based on live RQ</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- Community Access -->
-                        <tr>
-                            <td class="p-6 font-bold text-slate-800 bg-slate-50/10">Community Access</td>
-                            <td class="p-6 text-slate-400 italic font-light border-r border-slate-100">
-                                <div class="flex items-start gap-2.5 text-slate-400 font-light">
-                                    <i class="ri-close-circle-line text-slate-300 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>Not included</span>
-                                </div>
-                            </td>
-                            <td class="p-6 text-slate-600 font-light bg-gradient-to-br from-teal-500/[0.01] to-emerald-500/[0.01]">
-                                <div class="flex items-start gap-2.5">
-                                    <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>Monthly meets</span>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- Masterclass Fee -->
-                        <tr>
-                            <td class="p-6 font-bold text-slate-800 bg-slate-50/10">Masterclass Fee</td>
-                            <td class="p-6 text-slate-400 italic font-light border-r border-slate-100">
-                                <div class="flex items-start gap-2.5 text-slate-400 font-light">
-                                    <i class="ri-close-circle-line text-slate-300 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span>Not included</span>
-                                </div>
-                            </td>
-                            <td class="p-6 text-slate-600 font-light bg-gradient-to-br from-teal-500/[0.01] to-emerald-500/[0.01]">
-                                <div class="flex items-start gap-2.5 text-teal-800 font-semibold">
-                                    <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 flex-shrink-0"></i>
-                                    <span><span class="line-through decoration-2 decoration-slate-400 text-slate-400 font-normal">₹499</span> <span class="text-teal-700 font-bold">₹299</span> credited toward program</span>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Pricing Cards (Mobile View, md and down) -->
-            <div class="lg:hidden grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Masterclass Card -->
-                <div class="bg-white border border-slate-200 rounded-3xl p-6 space-y-6 shadow-xs relative">
-                    <div class="space-y-2">
-                        <span class="inline-flex items-center gap-1 px-3 py-1 bg-teal-50 text-teal-750 rounded-full text-[10px] font-bold uppercase tracking-wider">🎯 BSI Masterclass</span>
-                        <div class="flex items-baseline gap-2">
-                            <span class="text-sm text-slate-400 line-through">₹499</span>
-                            <span class="text-3xl font-black text-slate-900">₹299</span>
-                        </div>
-                    </div>
-                    <ul class="space-y-4 text-xs text-slate-600 divide-y divide-slate-100">
-                        <li class="pt-3"><strong>BSI Framework:</strong> Introduction to the 4-pillar approach  how to start reading your behavioural signals</li>
-                        <li class="pt-3"><strong>Videos:</strong> 1 deep-dive video  45 mins</li>
-                        <li class="pt-3"><strong>Activities:</strong> 6 activities across 4 pillars</li>
-                        <li class="pt-3"><strong>Metrics:</strong> Partial RQ  Partial Somatic and Pattern Resonance scores based on your 6 activities</li>
-                    </ul>
-                </div>
-
-                <!-- Complete Program Card -->
-                <div class="bg-white border border-teal-500/30 rounded-3xl p-6 space-y-6 shadow-md relative ring-1 ring-teal-500/10">
-                    <div class="absolute -top-3 right-6 px-3 py-0.5 bg-gradient-to-r from-teal-600 to-emerald-600 text-white text-[9px] font-extrabold uppercase tracking-widest rounded-full shadow-sm">
-                        Full Transformation
-                    </div>
-                    <div class="space-y-2">
-                        <span class="inline-flex items-center gap-1 px-3 py-1 bg-indigo-50 text-indigo-750 rounded-full text-[10px] font-bold uppercase tracking-wider">🚀 Complete BSI Program</span>
-                        <div class="flex items-baseline gap-2">
-                            <span class="text-3xl font-black text-slate-900">₹2999</span>
-                            <span class="text-sm text-slate-400 line-through">₹5999</span>
-                        </div>
-                    </div>
-                    <ul class="space-y-4 text-xs text-slate-600 divide-y divide-slate-100">
-                        <li class="pt-3"><strong>BSI Framework:</strong> A comprehensive, end-to-end behavioural reset across all four pillars</li>
-                        <li class="pt-3"><strong>Videos:</strong> 28 videos across 5 structured sections</li>
-                        <li class="pt-3"><strong>Activities:</strong> 45 activities across 4 pillars</li>
-                        <li class="pt-3"><strong>Metrics:</strong> Full daily RQ tracking  Emotional, Somatic, and Pattern Resonance combined into one comprehensive score</li>
-                        <li class="pt-3"><strong>Insights:</strong> Recommended action pathways based on your live RQ  so you always know exactly where to focus next</li>
-                        <li class="pt-3"><strong>Community:</strong> Monthly meets</li>
-                        <li class="pt-3"><strong>Masterclass Fee:</strong> <span class="line-through text-slate-450">₹499</span> <span class="text-teal-800">₹299</span> credited in full toward this</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Closing CTA Container -->
-            <div class="mt-16 bg-gradient-to-br from-slate-50 to-slate-100/70 border border-slate-200 rounded-3xl p-8 text-center max-w-3xl mx-auto space-y-6 shadow-sm">
-                <span class="text-xs font-bold text-slate-400 uppercase tracking-widest block font-sans">Not sure yet?</span>
-                
-                <h3 class="text-xl sm:text-2xl font-bold text-slate-900 font-sans">
-                    Start with the Masterclass.
-                </h3>
-                
-                <p class="text-xs sm:text-sm text-slate-500 font-light leading-relaxed max-w-xl mx-auto font-sans">
-                    Your <span class="line-through decoration-2 decoration-slate-400 text-slate-400 font-normal">₹499</span> <span class="text-slate-850 font-semibold">₹299</span> counts toward the full program whenever you're ready.
-                </p>
-
-                <div class="pt-2">
-                    <a href="https://www.yourbeep.com/courses/6a41f00fdc0af597eb154d43/pricing" class="inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 text-white font-bold py-3 px-8 rounded-xl shadow-md hover:shadow-lg transition transform duration-150 active:scale-95 text-xs sm:text-sm uppercase tracking-wider cursor-pointer">
-                        <span>Start with the Masterclass</span>
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </div>
-
-                <!-- Risk Reversal Guarantee Note -->
-                <div class="pt-2 border-t border-slate-200/50 max-w-md mx-auto">
-                    <p class="text-[10px] text-slate-450 leading-relaxed font-light">
-                        <strong class="font-bold text-slate-700">🛡️ 100% Risk-Free Guarantee:</strong> If you don't discover at least 3 hidden behavior patterns holding you back in the first 30 minutes, drop us a message for a full refund—no questions asked.
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Video Testimonials Grid -->
+            <div class="space-y-10">
+                <div class="text-center max-w-xl mx-auto">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-teal-950/60 border border-teal-900/30 rounded-full text-[10px] font-bold text-teal-400 uppercase tracking-widest">
+                        🎬 Video Stories
+                    </span>
+                    <h3 class="text-2xl sm:text-3xl font-extrabold text-white font-sans mt-3">
+                        Watch BSI in Action
+                    </h3>
+                    <p class="text-xs sm:text-sm text-slate-400 font-light mt-2 font-sans">
+                        See how early access members are decoding their behaviors and resetting their routines.
                     </p>
                 </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <!-- Video 1 -->
+                    <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-teal-500/30 group max-w-[260px] w-full mx-auto">
+                        <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
+                            <iframe 
+                                class="absolute inset-0 w-full h-full" 
+                                src="https://www.youtube.com/embed/WskXjQ2UTIk?rel=0&modestbranding=1" 
+                                title="Yourbeep Video Testimonial 1" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="inline-flex items-center gap-1.5 px-3.5 py-1 bg-teal-950/60 border border-teal-900/30 rounded-full text-[10px] font-bold text-teal-400 uppercase tracking-wider">
+                            <i class="ri-play-circle-line text-xs"></i>
+                            <span>Watch</span>
+                        </div>
+                    </div>
+
+                    <!-- Video 2 -->
+                    <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-rose-500/30 group max-w-[260px] w-full mx-auto">
+                        <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
+                            <iframe 
+                                class="absolute inset-0 w-full h-full" 
+                                src="https://www.youtube.com/embed/P2enxeLhMPU?rel=0&modestbranding=1" 
+                                title="Yourbeep Video Testimonial 2" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="inline-flex items-center gap-1.5 px-3.5 py-1 bg-rose-950/60 border border-rose-900/30 rounded-full text-[10px] font-bold text-rose-400 uppercase tracking-wider">
+                            <i class="ri-play-circle-line text-xs"></i>
+                            <span>Watch</span>
+                        </div>
+                    </div>
+
+                    <!-- Video 3 -->
+                    <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-amber-500/30 group max-w-[260px] w-full mx-auto sm:col-span-2 lg:col-span-1">
+                        <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
+                            <iframe 
+                                class="absolute inset-0 w-full h-full" 
+                                src="https://www.youtube.com/embed/qoqENvpIVNo?rel=0&modestbranding=1" 
+                                title="Yourbeep Video Testimonial 3" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="inline-flex items-center gap-1.5 px-3.5 py-1 bg-amber-950/60 border border-amber-900/30 rounded-full text-[10px] font-bold text-amber-400 uppercase tracking-wider">
+                            <i class="ri-play-circle-line text-xs"></i>
+                            <span>Watch</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+        </div>
+    </section>
+
+    <!-- ABOUT THE FOUNDER SECTION -->
+    <section class="w-full bg-slate-50 py-20 sm:py-28 relative overflow-hidden border-t border-slate-200/50">
+        <!-- Background decorative glows -->
+        <div class="absolute top-1/3 right-1/4 w-[400px] h-[400px] bg-teal-500/[0.02] rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="absolute bottom-1/3 left-1/4 w-[400px] h-[400px] bg-rose-500/[0.02] rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+                
+                <!-- Left Side: Founder Image & Quote Badge -->
+                <div class="lg:col-span-5 space-y-6">
+                    <!-- Image Card with Glow & Borders -->
+                    <div class="relative group rounded-3xl overflow-hidden border border-slate-200 bg-white p-3 shadow-xl transition duration-300 hover:scale-[1.01]">
+                        <!-- Subtle hover overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-teal-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10"></div>
+                        <img src="{{ asset('founder.webp') }}" alt="Alolika - Founder of Yourbeep" class="w-full h-auto rounded-2xl object-cover shadow-xs">
+                    </div>
+                    
+                    <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-xs text-center space-y-1">
+                        <h3 class="text-base font-bold text-slate-900 font-sans">Alolika</h3>
+                        <span class="inline-block text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Architect of BSI</span>
+                    </div>
+                </div>
+
+                <!-- Right Side: Content Details -->
+                <div class="lg:col-span-7 space-y-8">
+                    <!-- Intro Header -->
+                    <div class="space-y-4">
+                        <span class="text-xs font-bold text-teal-650 uppercase tracking-widest block font-sans">Meet the Architect</span>
+                        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight font-sans">
+                            About the Founder
+                        </h2>
+                        
+                        <p class="text-base sm:text-lg text-slate-700 leading-relaxed font-light font-sans">
+                            Most behavioural frameworks give you one lens cognitive, somatic, or spiritual. BSI gives you all of them at once. Because its architect hasn't just studied human behaviour. She's lived it from every angle possible.
+                        </p>
+                    </div>
+
+                    <!-- Quote Block -->
+                    <div class="border-l-4 border-teal-600 bg-teal-500/[0.04] p-5 sm:p-6 rounded-r-2xl space-y-3">
+                        <p class="text-sm text-slate-750 leading-relaxed font-light font-sans">
+                            After 15 years of leading 7,000+ people through transformation across 20+ fortune 500 firms, Alolika arrived at one uncomfortable truth – <strong class="text-slate-900 font-bold">“the only thing that consistently gets in the way of people's growth is their own behavioural limitations and patterns"</strong>.
+                        </p>
+                    </div>
+
+                    <!-- Career Context -->
+                    <p class="text-sm text-slate-650 leading-relaxed font-light font-sans">
+                        So at the peak of her career Senior Leader at a renowned US advisory firm she walked away to build something that addresses exactly that, at its core.
+                    </p>
+
+                    <!-- Core Hats Section -->
+                    <div class="space-y-6">
+                        <div class="space-y-2">
+                            <h3 class="text-base font-bold text-slate-900 font-sans">BSI isn't a leaf out of any textbook.</h3>
+                            <p class="text-xs text-slate-500 font-sans font-light">
+                                It's what happens when one person spends decades wearing genuinely different hats and refuses to take any of them off:
+                            </p>
+                        </div>
+
+                        <!-- 6 Hats Grid List -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Hat 1 -->
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
+                                    <i class="ri-graduation-cap-line text-lg"></i>
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The academic</h4>
+                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
+                                        who understands why people make the decisions they do, even when those decisions work against them
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Hat 2 -->
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
+                                    <i class="ri-loop-left-line text-lg"></i>
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The transformation advisor</h4>
+                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
+                                        who has sat with resistance, navigated denial, and watched 7,000+ people eventually integrate real change
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Hat 3 -->
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
+                                    <i class="ri-mental-health-line text-lg"></i>
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The Vipassana practitioner & Sufi whirler</h4>
+                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
+                                        who has spent years learning to observe and move through emotional states with grace
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Hat 4 -->
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
+                                    <i class="ri-body-scan-line text-lg"></i>
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The movement practitioner</h4>
+                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
+                                        20+ years across dance, MMA, aerial, circus, and yoga, building a somatic vocabulary most people never develop
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Hat 5 -->
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
+                                    <i class="ri-palette-line text-lg"></i>
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The visual artist</h4>
+                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
+                                        trained to see patterns before they're fully formed, before the mind can name them
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Hat 6 -->
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
+                                    <i class="ri-earth-line text-lg"></i>
+                                </div>
+                                <div class="space-y-1">
+                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The global resident</h4>
+                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
+                                        who has lived and worked across continents long enough to know what every framework leaves out
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Closing Summary -->
+                    <div class="pt-4 border-t border-slate-200/60 text-xs text-slate-550 leading-relaxed font-light font-sans">
+                        These aren't credentials. They're the constituents of a life lived with unusual breadth and unusual intentionality. And BSI is what emerged from it.
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
@@ -1295,238 +1280,6 @@ Signal Intelligence (BSI)</span>
         </div>
     </section>
 
-    <!-- TESTIMONIALS SECTION -->
-    <section class="w-full bg-slate-950 py-20 sm:py-28 relative overflow-hidden border-t border-slate-900">
-        <!-- Background decorative glows -->
-        <div class="absolute top-1/2 left-1/4 w-[450px] h-[450px] bg-rose-500/[0.04] rounded-full blur-[100px] pointer-events-none"></div>
-        <div class="absolute top-1/3 right-1/4 w-[450px] h-[450px] bg-teal-500/[0.04] rounded-full blur-[100px] pointer-events-none"></div>
-
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <!-- Video Testimonials Grid -->
-            <div class="space-y-10">
-                <div class="text-center max-w-xl mx-auto">
-                    <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-teal-950/60 border border-teal-900/30 rounded-full text-[10px] font-bold text-teal-400 uppercase tracking-widest">
-                        🎬 Video Stories
-                    </span>
-                    <h3 class="text-2xl sm:text-3xl font-extrabold text-white font-sans mt-3">
-                        Watch BSI in Action
-                    </h3>
-                    <p class="text-xs sm:text-sm text-slate-400 font-light mt-2 font-sans">
-                        See how early access members are decoding their behaviors and resetting their routines.
-                    </p>
-                </div>
-                
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                    <!-- Video 1 -->
-                    <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-teal-500/30 group max-w-[260px] w-full mx-auto">
-                        <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
-                            <iframe 
-                                class="absolute inset-0 w-full h-full" 
-                                src="https://www.youtube.com/embed/WskXjQ2UTIk?rel=0&modestbranding=1" 
-                                title="Yourbeep Video Testimonial 1" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="inline-flex items-center gap-1.5 px-3.5 py-1 bg-teal-950/60 border border-teal-900/30 rounded-full text-[10px] font-bold text-teal-400 uppercase tracking-wider">
-                            <i class="ri-play-circle-line text-xs"></i>
-                            <span>Watch</span>
-                        </div>
-                    </div>
-
-                    <!-- Video 2 -->
-                    <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-rose-500/30 group max-w-[260px] w-full mx-auto">
-                        <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
-                            <iframe 
-                                class="absolute inset-0 w-full h-full" 
-                                src="https://www.youtube.com/embed/P2enxeLhMPU?rel=0&modestbranding=1" 
-                                title="Yourbeep Video Testimonial 2" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="inline-flex items-center gap-1.5 px-3.5 py-1 bg-rose-950/60 border border-rose-900/30 rounded-full text-[10px] font-bold text-rose-400 uppercase tracking-wider">
-                            <i class="ri-play-circle-line text-xs"></i>
-                            <span>Watch</span>
-                        </div>
-                    </div>
-
-                    <!-- Video 3 -->
-                    <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-amber-500/30 group max-w-[260px] w-full mx-auto sm:col-span-2 lg:col-span-1">
-                        <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
-                            <iframe 
-                                class="absolute inset-0 w-full h-full" 
-                                src="https://www.youtube.com/embed/qoqENvpIVNo?rel=0&modestbranding=1" 
-                                title="Yourbeep Video Testimonial 3" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="inline-flex items-center gap-1.5 px-3.5 py-1 bg-amber-950/60 border border-amber-900/30 rounded-full text-[10px] font-bold text-amber-400 uppercase tracking-wider">
-                            <i class="ri-play-circle-line text-xs"></i>
-                            <span>Watch</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ABOUT THE FOUNDER SECTION -->
-    <section class="w-full bg-slate-50 py-20 sm:py-28 relative overflow-hidden border-t border-slate-200/50">
-        <!-- Background decorative glows -->
-        <div class="absolute top-1/3 right-1/4 w-[400px] h-[400px] bg-teal-500/[0.02] rounded-full blur-[100px] pointer-events-none"></div>
-        <div class="absolute bottom-1/3 left-1/4 w-[400px] h-[400px] bg-rose-500/[0.02] rounded-full blur-[100px] pointer-events-none"></div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-                
-                <!-- Left Side: Founder Image & Quote Badge -->
-                <div class="lg:col-span-5 space-y-6">
-                    <!-- Image Card with Glow & Borders -->
-                    <div class="relative group rounded-3xl overflow-hidden border border-slate-200 bg-white p-3 shadow-xl transition duration-300 hover:scale-[1.01]">
-                        <!-- Subtle hover overlay -->
-                        <div class="absolute inset-0 bg-gradient-to-tr from-teal-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10"></div>
-                        <img src="{{ asset('founder.webp') }}" alt="Alolika - Founder of Yourbeep" class="w-full h-auto rounded-2xl object-cover shadow-xs">
-                    </div>
-                    
-                    <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-xs text-center space-y-1">
-                        <h3 class="text-base font-bold text-slate-900 font-sans">Alolika</h3>
-                        <span class="inline-block text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Architect of BSI</span>
-                    </div>
-                </div>
-
-                <!-- Right Side: Content Details -->
-                <div class="lg:col-span-7 space-y-8">
-                    <!-- Intro Header -->
-                    <div class="space-y-4">
-                        <span class="text-xs font-bold text-teal-650 uppercase tracking-widest block font-sans">Meet the Architect</span>
-                        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight font-sans">
-                            About the Founder
-                        </h2>
-                        
-                        <p class="text-base sm:text-lg text-slate-700 leading-relaxed font-light font-sans">
-                            Most behavioural frameworks give you one lens cognitive, somatic, or spiritual. BSI gives you all of them at once. Because its architect hasn't just studied human behaviour. She's lived it from every angle possible.
-                        </p>
-                    </div>
-
-                    <!-- Quote Block -->
-                    <div class="border-l-4 border-teal-600 bg-teal-500/[0.04] p-5 sm:p-6 rounded-r-2xl space-y-3">
-                        <p class="text-sm text-slate-750 leading-relaxed font-light font-sans">
-                            After 15 years of leading 7,000+ people through transformation across 20+ fortune 500 firms, Alolika arrived at one uncomfortable truth – <strong class="text-slate-900 font-bold">“the only thing that consistently gets in the way of people's growth is their own behavioural limitations and patterns"</strong>.
-                        </p>
-                    </div>
-
-                    <!-- Career Context -->
-                    <p class="text-sm text-slate-650 leading-relaxed font-light font-sans">
-                        So at the peak of her career Senior Leader at a renowned US advisory firm she walked away to build something that addresses exactly that, at its core.
-                    </p>
-
-                    <!-- Core Hats Section -->
-                    <div class="space-y-6">
-                        <div class="space-y-2">
-                            <h3 class="text-base font-bold text-slate-900 font-sans">BSI isn't a leaf out of any textbook.</h3>
-                            <p class="text-xs text-slate-500 font-sans font-light">
-                                It's what happens when one person spends decades wearing genuinely different hats and refuses to take any of them off:
-                            </p>
-                        </div>
-
-                        <!-- 6 Hats Grid List -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <!-- Hat 1 -->
-                            <div class="flex gap-4">
-                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
-                                    <i class="ri-graduation-cap-line text-lg"></i>
-                                </div>
-                                <div class="space-y-1">
-                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The academic</h4>
-                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
-                                        who understands why people make the decisions they do, even when those decisions work against them
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Hat 2 -->
-                            <div class="flex gap-4">
-                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
-                                    <i class="ri-loop-left-line text-lg"></i>
-                                </div>
-                                <div class="space-y-1">
-                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The transformation advisor</h4>
-                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
-                                        who has sat with resistance, navigated denial, and watched 7,000+ people eventually integrate real change
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Hat 3 -->
-                            <div class="flex gap-4">
-                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
-                                    <i class="ri-mental-health-line text-lg"></i>
-                                </div>
-                                <div class="space-y-1">
-                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The Vipassana practitioner & Sufi whirler</h4>
-                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
-                                        who has spent years learning to observe and move through emotional states with grace
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Hat 4 -->
-                            <div class="flex gap-4">
-                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
-                                    <i class="ri-body-scan-line text-lg"></i>
-                                </div>
-                                <div class="space-y-1">
-                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The movement practitioner</h4>
-                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
-                                        20+ years across dance, MMA, aerial, circus, and yoga, building a somatic vocabulary most people never develop
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Hat 5 -->
-                            <div class="flex gap-4">
-                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
-                                    <i class="ri-palette-line text-lg"></i>
-                                </div>
-                                <div class="space-y-1">
-                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The visual artist</h4>
-                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
-                                        trained to see patterns before they're fully formed, before the mind can name them
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Hat 6 -->
-                            <div class="flex gap-4">
-                                <div class="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center border border-teal-100 text-teal-650 shrink-0 select-none">
-                                    <i class="ri-earth-line text-lg"></i>
-                                </div>
-                                <div class="space-y-1">
-                                    <h4 class="text-sm font-bold text-slate-800 font-sans">The global resident</h4>
-                                    <p class="text-xs text-slate-500 leading-relaxed font-light font-sans">
-                                        who has lived and worked across continents long enough to know what every framework leaves out
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Closing Summary -->
-                    <div class="pt-4 border-t border-slate-200/60 text-xs text-slate-550 leading-relaxed font-light font-sans">
-                        These aren't credentials. They're the constituents of a life lived with unusual breadth and unusual intentionality. And BSI is what emerged from it.
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- BONUSES SECTION -->
     <section class="w-full bg-slate-950 py-20 sm:py-28 relative overflow-hidden border-t border-slate-900">
         <!-- Background decorative glows -->
@@ -1678,10 +1431,81 @@ Signal Intelligence (BSI)</span>
                         <div class="mt-4 bg-emerald-950/40 border border-emerald-500/20 rounded-2xl p-4 text-left">
                             <span class="text-[10px] font-extrabold text-emerald-400 uppercase tracking-widest block mb-1">🛡️ 100% Risk-Free Guarantee</span>
                             <p class="text-[10px] text-slate-300 leading-relaxed font-light">
-                                If you don't discover at least 3 hidden behavior patterns holding you back in the first 30 minutes, drop us a message for a full refund—no questions asked.
+                                If you don't discover at least 3 hidden behavior patterns holding you back in the first 30 minutes, drop us a message for a full refundno questions asked.
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-gradient-to-b from-slate-50 to-slate-100/60 pt-10 pb-20 sm:pt-14 sm:pb-28 relative overflow-hidden border-t border-slate-200/50">
+        <!-- Background glows -->
+        <div class="absolute top-1/3 right-1/4 w-[400px] h-[400px] bg-teal-500/[0.03] rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="absolute bottom-1/3 left-1/4 w-[400px] h-[400px] bg-indigo-500/[0.03] rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-10">
+                <span class="text-xs font-bold text-teal-600 uppercase tracking-widest block font-sans">Start Your Journey</span>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight font-sans">
+                    The BSI Masterclass
+                </h2>
+                <p class="text-sm sm:text-base text-slate-500 font-light font-sans">
+                    Begin decoding your behavioral loops and patterns in just 10 minutes a day.
+                </p>
+            </div>
+
+            <!-- Premium Single Pricing Card -->
+            <div class="max-w-xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 space-y-6 shadow-2xl relative overflow-hidden">
+                <!-- Soft glow details in card -->
+                <div class="absolute top-0 right-0 w-32 h-32 bg-teal-500/[0.03] rounded-full blur-2xl pointer-events-none"></div>
+                
+                <div class="flex items-center justify-between border-b border-slate-100 pb-4 flex-wrap gap-2">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs font-bold uppercase tracking-wider">
+                        🎯 BSI Masterclass
+                    </span>
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-sm text-slate-400 line-through">₹499</span>
+                        <span class="text-3xl font-black text-slate-900 font-sans">₹299</span>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider">What's Included:</h4>
+                    <ul class="space-y-4 text-sm text-slate-650 font-sans font-light">
+                        <li class="flex items-start gap-2.5">
+                            <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 shrink-0"></i>
+                            <span><strong>BSI Framework:</strong> Introduction to the 4-pillar approach to read your behavioural signals.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 shrink-0"></i>
+                            <span><strong>Educational Videos:</strong> 1 deep-dive video (45 mins) to guide your awareness.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 shrink-0"></i>
+                            <span><strong>Gamified Activities:</strong> 6 interactive daily behavioural exercises.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="ri-checkbox-circle-fill text-teal-600 text-base mt-0.5 shrink-0"></i>
+                            <span><strong>RQ Score Dashboard:</strong> Partial Somatic and Pattern Resonance score metrics.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pt-6 border-t border-slate-100">
+                    <a href="https://www.yourbeep.com/courses/6a41f00fdc0af597eb154d43/pricing" class="flex items-center justify-center w-full bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 text-white font-bold py-3.5 px-6 rounded-xl text-xs uppercase tracking-wider shadow-lg shadow-teal-500/20 hover:shadow-teal-500/35 transition transform duration-150 active:scale-95 text-center cursor-pointer">
+                        <span>Get Started with the Masterclass</span>
+                        <i class="ri-arrow-right-line ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Risk Reversal Guarantee Note -->
+                <div class="pt-4 border-t border-slate-100/80">
+                    <p class="text-[11px] text-slate-450 leading-relaxed font-light font-sans text-center">
+                        <strong class="font-bold text-slate-600">🛡️ 100% Risk-Free Guarantee:</strong> If you don't discover at least 3 hidden behavior patterns holding you back in the first 30 minutes, drop us a message for a full refund—no questions asked.
+                    </p>
                 </div>
             </div>
         </div>

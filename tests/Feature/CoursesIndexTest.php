@@ -12,17 +12,17 @@ test('home page renders successfully', function () {
 });
 
 test('courses page renders successfully', function () {
-    if (!Route::has('courses.index')) {
+    if (! Route::has('courses.index')) {
         $this->markTestSkipped('Courses route is disabled.');
     }
 
     $this->get('/courses')
         ->assertOk()
-        ->assertSeeLivewire('pages::home');
+        ->assertSeeLivewire('pages::home2');
 });
 
 test('masterclass form validation works', function () {
-    Livewire::test('pages::home')
+    Livewire::test('pages::home2')
         ->set('name', '')
         ->set('email', '')
         ->set('phone', '')
@@ -33,7 +33,7 @@ test('masterclass form validation works', function () {
 test('form registers successfully', function () {
     Mail::fake();
 
-    Livewire::test('pages::home')
+    Livewire::test('pages::home2')
         ->set('name', 'Amit Sharma')
         ->set('email', 'amit@gmail.com')
         ->set('phone', '9876543210')
