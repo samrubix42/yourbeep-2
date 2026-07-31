@@ -1,0 +1,118 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Custom Premium UI Animations & Utilities */
+@layer utilities {
+    .animate-marquee {
+        display: flex;
+        width: max-content;
+        animation: marquee 240s linear infinite;
+    }
+
+    .animate-marquee-reverse {
+        display: flex;
+        width: max-content;
+        animation: marquee-reverse 240s linear infinite;
+    }
+
+    .animate-marquee:hover, .animate-marquee-reverse:hover {
+        animation-play-state: paused;
+    }
+
+    .animate-glow {
+        box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+        border-color: rgba(139, 92, 246, 0.4);
+    }
+
+    .animate-glow-orange {
+        box-shadow: 0 0 25px rgba(249, 115, 22, 0.25);
+        border-color: rgba(249, 115, 22, 0.5);
+    }
+
+    .animate-pulse-slow {
+        animation: pulse-slow 3s infinite;
+    }
+
+    .animate-blink {
+        animation: blink 1s infinite;
+    }
+
+    .glassmorphism {
+        background: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .dark .glassmorphism {
+        background: rgba(17, 24, 39, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .text-gradient {
+        background: linear-gradient(135deg, #a78bfa 0%, #f472b6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text-gradient-orange {
+        background: linear-gradient(135deg, #fb923c 0%, #f43f5e 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-55%);
+    }
+}
+
+@keyframes marquee-reverse {
+    0% {
+        transform: translateX(-55%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse-slow {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
