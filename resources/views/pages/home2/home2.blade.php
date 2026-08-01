@@ -239,7 +239,7 @@ Signal Intelligence (BSI)</span>
                                         </div>
                                         <div class="border-t border-slate-200/50 my-1.5"></div>
                                         <p class="text-[11px] text-slate-600 leading-relaxed font-light">
-                                            <strong class="font-bold text-slate-800">Includes:</strong> 60-Min BSI Masterclass + Guided Exercises + Lifetime Access
+                                            <strong class="font-bold text-slate-800">Includes:</strong> 60-Min BSI Masterclass + Guided Exercises + 1-Year Access
                                         </p>
                                     </div>
                                 </div>
@@ -1576,7 +1576,7 @@ Signal Intelligence (BSI)</span>
                              x-transition:leave-end="opacity-0 max-h-0"
                              class="px-6 pb-6 pt-0 border-t border-slate-100/50">
                             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-light font-sans">
-                                You get lifetime access to the masterclass, guided exercises, and the partial Resonance Quotient (RQ) dashboard. You can revisit the tools whenever you feel stuck.
+                                You get 1-year access to the masterclass, guided exercises, and the partial Resonance Quotient (RQ) dashboard. You can revisit the tools whenever you feel stuck.
                             </p>
                         </div>
                     </div>
