@@ -1,5 +1,6 @@
 <div x-data="{ 
-    minutes: 14, 
+    hours: 23,
+    minutes: 59, 
     seconds: 59 
 }" x-init="
     // Countdown Timer Loop
@@ -9,8 +10,13 @@
         } else if (minutes > 0) {
             minutes--;
             seconds = 59;
+        } else if (hours > 0) {
+            hours--;
+            minutes = 59;
+            seconds = 59;
         } else {
-            minutes = 14;
+            hours = 23;
+            minutes = 59;
             seconds = 59;
         }
     }, 1000);
@@ -24,15 +30,17 @@
         </span>
         <div class="inline-flex items-center gap-1 sm:gap-1.5 text-rose-400 font-mono font-bold text-[11px] sm:text-xs bg-rose-500/10 px-2 sm:px-2.5 py-0.5 rounded border border-rose-500/25 shadow-sm whitespace-nowrap shrink-0">
             <i class="ri-time-line text-[11px] sm:text-xs"></i>
-            <span x-text="String(minutes).padStart(2, '0')">14</span>
+            <span x-text="String(hours).padStart(2, '0')">23</span>
+            <span class="animate-pulse">:</span>
+            <span x-text="String(minutes).padStart(2, '0')">59</span>
             <span class="animate-pulse">:</span>
             <span x-text="String(seconds).padStart(2, '0')">59</span>
         </div>
     </div>
 
     <!-- Navigation Header -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-4 sm:pb-5">
-        <div class="flex items-center justify-between border-b border-slate-100 pb-4 sm:pb-5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-14 pb-2 sm:pb-3">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-2 sm:pb-3">
             <div class="flex items-center gap-2 sm:gap-4">
                 <!-- Black text logo renders perfectly on this white background -->
                 <img src="/app_logo.png" alt="YourBeep Logo" class="h-8 sm:h-11 w-auto object-contain transition-opacity duration-300 hover:opacity-85">

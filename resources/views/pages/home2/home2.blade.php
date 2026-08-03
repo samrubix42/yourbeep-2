@@ -24,7 +24,7 @@
     <livewire:public.header />
 
     <!-- HERO SECTION (Premium Light Theme with Glow Lights and Grid Mesh) -->
-    <section class="w-full bg-white border-b border-slate-200/50 py-16 sm:py-24 relative overflow-hidden flex-1">
+    <section class="w-full bg-white border-b border-slate-200/50 py-6 sm:py-12 relative overflow-hidden flex-1">
         <!-- Dotted grid mesh pattern -->
         <div class="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:24px_24px] opacity-25 pointer-events-none"></div>
 
@@ -35,15 +35,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <!-- Hero Content Header -->
             <div class="text-center max-w-4xl mx-auto space-y-6 mb-16">
-                <!-- Premium Pill Badge -->
-                <div class="inline-flex items-center gap-2.5 px-4 py-1.5 bg-rose-500/5 border border-rose-500/20 rounded-full text-rose-700 text-xs font-semibold uppercase tracking-wider shadow-xs backdrop-blur-xs">
-                    <span class="flex h-2 w-2 relative">
-                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-                        <span class="relative inline-flex rounded-full h-2 w-2 bg-rose-600"></span>
-                    </span>
-                    <span>Exclusive Early Member Access</span>
-                </div>
-
+             
                 <!-- Trust Badge Above the Fold -->
                 <div class="flex flex-wrap items-center justify-center gap-2 mt-2">
                     <div class="flex text-amber-500 text-sm">
@@ -54,22 +46,22 @@
                         <i class="ri-star-fill"></i>
                     </div>
                     <span class="text-slate-700 text-xs font-bold">4.9/5 Rating</span>
-                    <span class="text-slate-300">|</span>
-                    <span class="text-slate-600 text-xs font-medium">Join 500+ Early Access Members Across 5 Countries</span>
+                   
                 </div>
 
                 <!-- Main Hero Headline -->
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-slate-900 leading-[1.15] font-sans">
-                    Running at 200% Effort, and yet…<br>
+                    Rewire Your Mind Through Games Without Meditation,<br>
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-amber-500 font-extrabold block mt-2">
-                        Still Falling Short of That 100% Life?
+                         Affirmations or 21-Day Challenges.
                     </span>
                 </h1>
 
                 <!-- Bold Highlight Statement -->
-                <div class="inline-block bg-teal-500/5 border-l-4 border-teal-500 px-6 py-4 rounded-r-xl max-w-2xl text-left shadow-2xs">
-                    <span class="block text-slate-650 text-base sm:text-lg font-light leading-relaxed">Don't Question Your Ambition or Effort.</span>
-                    <span class="block text-slate-900 text-lg sm:text-xl font-bold">Question Your Hidden Behaviour Blockers.</span>
+                <div class="inline-block bg-teal-500/5 border-l-4 border-teal-500 px-6 py-4 rounded-r-xl max-w-3xl text-left shadow-2xs">
+                    <span class="block text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
+                        Discover the <strong class="text-slate-900 font-bold">science-backed behavioural intelligence system</strong> that helps you identify and change the hidden patterns behind overthinking, burnout and self-sabotage in just <strong class="text-teal-700 font-bold">10 minutes a day</strong>.
+                    </span>
                 </div>
 
                 <!-- Sub-headline -->
@@ -78,9 +70,14 @@
                     <div class="absolute -top-12 -left-12 w-24 h-24 bg-amber-500/10 rounded-full blur-xl pointer-events-none"></div>
                     <div class="absolute -bottom-12 -right-12 w-24 h-24 bg-teal-500/10 rounded-full blur-xl pointer-events-none"></div>
                     
-                    <p class="text-base sm:text-lg text-slate-700 leading-relaxed font-medium font-sans relative z-10">
-                        <span class="bg-gradient-to-r from-amber-600 to-rose-600 bg-clip-text text-transparent font-extrabold">Break Free</span> from <span class="text-slate-900 font-bold underline decoration-amber-500/60 decoration-wavy decoration-2">Hidden Burnout &amp; Overthinking Loops</span> in Just <span class="bg-teal-100/80 text-teal-800 px-2 py-0.5 rounded font-bold">10 Minutes a Day</span>Without Meditations, Generic Affirmations, or 21-Day Challenges.
-                    </p>
+                    <div class="relative z-10 space-y-3 font-sans">
+                        <p class="text-base sm:text-lg text-slate-700 leading-relaxed font-semibold">
+                            Learn how to <span class="bg-gradient-to-r from-amber-600 to-rose-600 bg-clip-text text-transparent font-extrabold">rewire your mind</span> without meditation, without affirmations, and without a 21-day challenge.
+                        </p>
+                        <p class="text-sm sm:text-base text-slate-650 leading-relaxed font-medium">
+                            <span class="text-slate-900 font-bold">YourBeep</span> is a science-backed gamified system that helps you identify and change your overthinking, burnout, and hidden behavior patterns in just <span class="bg-teal-100/80 text-teal-800 px-2 py-0.5 rounded font-bold">10 minutes a day</span>.
+                        </p>
+                    </div>
                 </div>
             </div>
 
