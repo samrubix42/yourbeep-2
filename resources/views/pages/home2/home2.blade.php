@@ -24,7 +24,7 @@
     <livewire:public.header />
 
     <!-- HERO SECTION (Premium Light Theme with Glow Lights and Grid Mesh) -->
-    <section class="w-full bg-white border-b border-slate-200/50 py-6 sm:py-12 relative overflow-hidden flex-1">
+    <section class="w-full bg-white border-b border-slate-200/50 py-1 sm:py-12 relative overflow-hidden flex-1">
         <!-- Dotted grid mesh pattern -->
         <div class="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:24px_24px] opacity-25 pointer-events-none"></div>
 
