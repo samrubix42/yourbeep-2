@@ -34,7 +34,7 @@
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <!-- Hero Content Header -->
-            <div class="text-center max-w-4xl mx-auto space-y-6 mb-16">
+            <div class="text-center max-w-4xl mx-auto space-y-4 mb-6">
              
                 <!-- Trust Badge Above the Fold -->
                 <div class="flex flex-wrap items-center justify-center gap-2 mt-2">
@@ -65,12 +65,12 @@
                 </div>
 
                 <!-- Sub-headline -->
-                <div class="max-w-3xl mx-auto mt-6 p-6 rounded-2xl bg-amber-500/[0.03] border border-amber-500/20 shadow-xs backdrop-blur-xs relative overflow-hidden text-center">
+                <div class="max-w-3xl mx-auto mt-3 sm:mt-4 p-6 rounded-2xl bg-amber-500/[0.03] border border-amber-500/20 shadow-xs backdrop-blur-xs relative overflow-hidden text-center">
                     <!-- Subtle glow effect behind -->
                     <div class="absolute -top-12 -left-12 w-24 h-24 bg-amber-500/10 rounded-full blur-xl pointer-events-none"></div>
                     <div class="absolute -bottom-12 -right-12 w-24 h-24 bg-teal-500/10 rounded-full blur-xl pointer-events-none"></div>
                     
-                    <div class="relative z-10 space-y-3 font-sans">
+                    <div class="relative z-10 space-y-1 font-sans">
                         <p class="text-base sm:text-lg text-slate-700 leading-relaxed font-semibold">
                             Learn how to <span class="bg-gradient-to-r from-amber-600 to-rose-600 bg-clip-text text-transparent font-extrabold">rewire your mind</span> without meditation, without affirmations, and without a 21-day challenge.
                         </p>
@@ -1635,7 +1635,7 @@ Signal Intelligence (BSI)</span>
     <livewire:public.footer />
 
     <!-- Social Proof Notification Toaster (Bottom-Left popup, Clean Light style with Teal accents) -->
-    <div class="fixed bottom-24 md:bottom-6 left-4 md:left-6 right-4 md:right-auto z-50 bg-white border border-teal-500/20 rounded-2xl p-4 sm:p-4.5 shadow-2xl max-w-[calc(100%-2rem)] md:max-w-sm flex items-center gap-3.5 backdrop-blur transition-all duration-500 transform"
+    <div class="fixed bottom-18 md:bottom-6 left-4 md:left-6 right-4 md:right-auto z-50 bg-white border border-teal-500/20 rounded-2xl p-4 sm:p-4.5 shadow-2xl max-w-[calc(100%-2rem)] md:max-w-sm flex items-center gap-3.5 backdrop-blur transition-all duration-500 transform"
         x-show="toastOpen"
         x-transition:enter="transition ease-out duration-500"
         x-transition:enter-start="opacity-0 translate-y-8 scale-95"
