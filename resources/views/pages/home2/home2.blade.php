@@ -34,7 +34,7 @@
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <!-- Hero Content Header -->
-            <div class="text-center max-w-4xl mx-auto space-y-4 mb-6">
+            <div class="text-center max-w-4xl mx-auto space-y-4 mb-2">
              
                 <!-- Trust Badge Above the Fold -->
                 <div class="flex flex-wrap items-center justify-center gap-2 mt-2">
@@ -58,14 +58,14 @@
                 </h1>
 
                 <!-- Bold Highlight Statement -->
-                <div class="inline-block bg-teal-500/5 border-l-4 border-teal-500 px-6 py-4 rounded-r-xl max-w-3xl text-left shadow-2xs">
+                <div class="inline-block bg-teal-500/5 border-l-4 border-teal-500 px-6 py-2 rounded-r-xl max-w-3xl text-left shadow-2xs">
                     <span class="block text-slate-800 text-base sm:text-lg font-medium leading-relaxed">
                         Discover the <strong class="text-slate-900 font-bold">science-backed behavioural intelligence system</strong> that helps you identify and change the hidden patterns behind overthinking, burnout and self-sabotage in just <strong class="text-teal-700 font-bold">10 minutes a day</strong>.
                     </span>
                 </div>
 
                 <!-- Sub-headline -->
-                <div class="max-w-3xl mx-auto mt-3 sm:mt-4 p-6 rounded-2xl bg-amber-500/[0.03] border border-amber-500/20 shadow-xs backdrop-blur-xs relative overflow-hidden text-center">
+                <div class="max-w-3xl mx-auto mt-2 sm:mt-4 p-4 rounded-2xl bg-amber-500/[0.03] border border-amber-500/20 shadow-xs backdrop-blur-xs relative overflow-hidden text-center">
                     <!-- Subtle glow effect behind -->
                     <div class="absolute -top-12 -left-12 w-24 h-24 bg-amber-500/10 rounded-full blur-xl pointer-events-none"></div>
                     <div class="absolute -bottom-12 -right-12 w-24 h-24 bg-teal-500/10 rounded-full blur-xl pointer-events-none"></div>
