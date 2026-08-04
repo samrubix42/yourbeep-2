@@ -89,7 +89,9 @@ new #[Layout('components.layouts.app')] class extends Component
         ]);
 
         try {
-            Mail::to('samcool3203@gmail.com')->send(new ClassRegistered($registration));
+            Mail::to('yourbeep2026@gmail.com')
+                ->cc(['techonikasolutions@gmail.com', 'alolika.savant@gmail.com'])
+                ->send(new ClassRegistered($registration));
         } catch (Exception $e) {
             logger()->error('Mail sending failed in home2: '.$e->getMessage());
         }

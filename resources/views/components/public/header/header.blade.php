@@ -43,7 +43,7 @@
         <div class="flex items-center justify-between border-b border-slate-100 pb-2 sm:pb-3">
             <div class="flex items-center gap-2 sm:gap-4">
                 <!-- Black text logo renders perfectly on this white background -->
-                <img src="/app_logo.png" alt="YourBeep Logo" class="h-8 sm:h-11 w-auto object-contain transition-opacity duration-300 hover:opacity-85">
+                <img src="/app_logo.png" alt="Yourbeep Logo" class="h-8 sm:h-11 w-auto object-contain transition-opacity duration-300 hover:opacity-85">
             </div>
             <div class="flex items-center gap-2 sm:gap-4">
                 <span class="hidden md:inline-flex items-center gap-1.5 text-xs text-slate-500 bg-slate-50 border border-slate-200/80 px-3.5 py-1.5 rounded-full shadow-xs">

@@ -75,7 +75,7 @@
                             Learn how to <span class="bg-gradient-to-r from-amber-600 to-rose-600 bg-clip-text text-transparent font-extrabold">rewire your mind</span> without meditation, without affirmations, and without a 21-day challenge.
                         </p>
                         <p class="text-sm sm:text-base text-slate-650 leading-relaxed font-medium">
-                            <span class="text-slate-900 font-bold">YourBeep</span> is a science-backed gamified system that helps you identify and change your overthinking, burnout, and hidden behavior patterns in just <span class="bg-teal-100/80 text-teal-800 px-2 py-0.5 rounded font-bold">10 minutes a day</span>.
+                            <span class="text-slate-900 font-bold">Yourbeep</span> is a science-backed gamified system that helps you identify and change your overthinking, burnout, and hidden behavior patterns in just <span class="bg-teal-100/80 text-teal-800 px-2 py-0.5 rounded font-bold">10 minutes a day</span>.
                         </p>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                     <!-- BSI Description Box below the image -->
                     <div class="bg-gradient-to-br  from-slate-50 to-slate-100/70 border border-slate-200/80 rounded-2xl p-6 sm:p-7 space-y-4 shadow-sm relative">
                         <div class="absolute -top-3 left-6 px-3.5 py-0.5 bg-white border border-slate-200 rounded-full text-[10px] font-extrabold text-slate-500 uppercase tracking-widest shadow-2xs">
-                            About YourBeep Framework
+                            About Yourbeep Framework
                         </div>
 
                         <div class="flex items-center gap-3 text-teal-600">

@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Master high-income digital skills and launch your career with YourBeep Academy. Industry-grade courses with live mentorship, real projects, and active community.">
+        <meta name="description" content="Master high-income digital skills and launch your career with Yourbeep Academy. Industry-grade courses with live mentorship, real projects, and active community.">
         
-        <title>{{ $title ?? 'YourBeep Academy - Premium Digital Skills Courses' }}</title>
+        <title>{{ $title ?? 'Yourbeep Academy - Premium Digital Skills Courses' }}</title>
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
