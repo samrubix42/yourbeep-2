@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/yourb742/repositories/yourbeep-2/
+    - export DEPLOYPATH=/home1/yourb742/join.yourbeep.com/
     - /bin/cp -R * $DEPLOYPATH 
