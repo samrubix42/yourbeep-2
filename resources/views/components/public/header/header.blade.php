@@ -1,26 +1,37 @@
 <div x-data="{ 
     hours: 23,
     minutes: 59, 
-    seconds: 59 
-}" x-init="
-    // Countdown Timer Loop
-    setInterval(() => {
-        if (seconds > 0) {
-            seconds--;
-        } else if (minutes > 0) {
-            minutes--;
-            seconds = 59;
-        } else if (hours > 0) {
-            hours--;
-            minutes = 59;
-            seconds = 59;
-        } else {
-            hours = 23;
-            minutes = 59;
-            seconds = 59;
+    seconds: 59,
+    initTimer() {
+        let expiry = localStorage.getItem('yourbeep_countdown_expiry');
+        const now = Date.now();
+        const duration = (23 * 3600 + 59 * 60 + 59) * 1000;
+
+        if (!expiry || parseInt(expiry) < now) {
+            expiry = now + duration;
+            localStorage.setItem('yourbeep_countdown_expiry', expiry);
         }
-    }, 1000);
-" class="w-full">
+
+        const update = () => {
+            const timeLeft = parseInt(expiry) - Date.now();
+            if (timeLeft <= 0) {
+                const newExpiry = Date.now() + duration;
+                localStorage.setItem('yourbeep_countdown_expiry', newExpiry);
+                this.hours = 23;
+                this.minutes = 59;
+                this.seconds = 59;
+            } else {
+                const totalSeconds = Math.floor(timeLeft / 1000);
+                this.hours = Math.floor(totalSeconds / 3600);
+                this.minutes = Math.floor((totalSeconds % 3600) / 60);
+                this.seconds = totalSeconds % 60;
+            }
+        };
+
+        update();
+        setInterval(update, 1000);
+    }
+}" x-init="initTimer()" class="w-full">
 
     <!-- Top Urgency Banner (Sleek Dark Theme for high contrast and modern look) -->
     <div class="fixed top-0 left-0 right-0 z-50 bg-slate-900 border-b border-slate-800 px-3 sm:px-4 py-2 sm:py-2.5 text-center flex items-center justify-center gap-1.5 sm:gap-3 shadow-md">
