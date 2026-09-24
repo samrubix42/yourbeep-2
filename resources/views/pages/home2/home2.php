@@ -26,13 +26,13 @@ new #[Layout('components.layouts.app')] class extends Component
     public array $purchasers = [];
 
     /**
-     * Mount the component and generate Indian purchasers list.
+     * Mount the component and generate US purchasers list.
      */
     public function mount(): void
     {
-        $firstNames = ['Amit', 'Rahul', 'Sneha', 'Priya', 'Vikram', 'Rohan', 'Ananya', 'Divya', 'Sandeep', 'Neha', 'Karthik', 'Sanjay', 'Pooja', 'Aarav', 'Ishaan', 'Aditya', 'Meera', 'Riya', 'Arjun', 'Kabir', 'Tanvi', 'Abhishek', 'Deepak', 'Manish', 'Jyoti', 'Shalini', 'Sunita', 'Rajesh', 'Vijay', 'Harish', 'Karan', 'Simran', 'Akash', 'Shruti', 'Varun', 'Nisha', 'Aman', 'Kriti', 'Pranav', 'Payal', 'Aditi', 'Rohan', 'Rakesh', 'Suresh', 'Geeta', 'Anil', 'Sunil', 'Kiran', 'Lata', 'Usha'];
-        $lastNames = ['Sharma', 'Kumar', 'Patel', 'Malhotra', 'Iyer', 'Reddy', 'Sen', 'Joshi', 'Gupta', 'Nair', 'Subramanian', 'Deshmukh', 'Mishra', 'Verma', 'Saxena', 'Choudhury', 'Mehta', 'Rao', 'Singh', 'Bose', 'Gill', 'Jadhav', 'Kulkarni', 'Pillai', 'Acharya', 'Trivedi', 'Jha', 'Pandey', 'Roy', 'Prasad', 'Kapoor', 'Khanna', 'Joshi', 'Bhat', 'Bhasin', 'Dutta', 'Das', 'Dhar', 'Menon', 'Shetty', 'Hegde', 'Nayak', 'Sawant', 'Sane', 'Wagle'];
-        $cities = ['Mumbai', 'Delhi', 'Bangalore', 'Pune', 'Hyderabad', 'Chennai', 'Kolkata', 'Ahmedabad', 'Jaipur', 'Kochi', 'Nagpur', 'Lucknow', 'Indore', 'Bhopal', 'Chandigarh', 'Surat', 'Coimbatore', 'Patna', 'Ranchi', 'Guwahati', 'Visakhapatnam', 'Mysore', 'Nashik', 'Vadodara', 'Kanpur'];
+        $firstNames = ['James', 'John', 'Robert', 'Michael', 'William', 'David', 'Richard', 'Joseph', 'Thomas', 'Charles', 'Christopher', 'Daniel', 'Matthew', 'Anthony', 'Mark', 'Steven', 'Paul', 'Andrew', 'Joshua', 'Kenneth', 'Kevin', 'Brian', 'George', 'Timothy', 'Ronald', 'Edward', 'Jason', 'Jeffrey', 'Ryan', 'Jacob', 'Gary', 'Nicholas', 'Eric', 'Jonathan', 'Stephen', 'Larry', 'Justin', 'Scott', 'Brandon', 'Benjamin', 'Samuel', 'Gregory', 'Frank', 'Alexander', 'Patrick', 'Raymond', 'Jack', 'Mary', 'Jennifer', 'Linda', 'Patricia', 'Elizabeth', 'Susan', 'Jessica', 'Sarah', 'Karen', 'Lisa', 'Nancy', 'Sandra', 'Ashley', 'Emily', 'Kimberly', 'Margaret', 'Donna', 'Michelle', 'Carol', 'Amanda', 'Melissa', 'Deborah', 'Stephanie', 'Rebecca', 'Laura', 'Sharon', 'Cynthia', 'Kathleen', 'Amy', 'Angela', 'Shirley', 'Anna', 'Brenda', 'Pamela', 'Emma', 'Nicole', 'Samantha', 'Rachel', 'Lauren', 'Megan', 'Kayla', 'Jordan', 'Tyler', 'Caleb', 'Natalie', 'Haley'];
+        $lastNames = ['Smith', 'Johnson', 'Williams', 'Brown', 'Jones', 'Garcia', 'Miller', 'Davis', 'Rodriguez', 'Martinez', 'Hernandez', 'Lopez', 'Gonzalez', 'Wilson', 'Anderson', 'Thomas', 'Taylor', 'Moore', 'Jackson', 'Martin', 'Lee', 'Perez', 'Thompson', 'White', 'Harris', 'Sanchez', 'Clark', 'Ramirez', 'Lewis', 'Robinson', 'Walker', 'Young', 'Allen', 'King', 'Wright', 'Scott', 'Torres', 'Nguyen', 'Hill', 'Green', 'Adams', 'Baker', 'Nelson', 'Carter', 'Mitchell'];
+        $cities = ['New York, NY', 'Los Angeles, CA', 'Chicago, IL', 'Houston, TX', 'Phoenix, AZ', 'Philadelphia, PA', 'San Antonio, TX', 'San Diego, CA', 'Dallas, TX', 'San Jose, CA', 'Austin, TX', 'Jacksonville, FL', 'Fort Worth, TX', 'Columbus, OH', 'Charlotte, NC', 'San Francisco, CA', 'Indianapolis, IN', 'Seattle, WA', 'Denver, CO', 'Washington, DC', 'Boston, MA', 'Nashville, TN', 'Portland, OR', 'Las Vegas, NV', 'Detroit, MI', 'Miami, FL', 'Atlanta, GA', 'Minneapolis, MN', 'New Orleans, LA', 'Savannah, GA', 'Boulder, CO', 'Boise, ID', 'Tucson, AZ', 'Salt Lake City, UT', 'Milwaukee, WI', 'Kansas City, MO', 'Sacramento, CA', 'Cleveland, OH', 'Tampa, FL', 'Omaha, NE', 'Raleigh, NC', 'Louisville, KY', 'Memphis, TN', 'Pittsburgh, PA', 'St. Louis, MO'];
 
         $used = [];
         $purchaserList = [];
@@ -77,6 +77,7 @@ new #[Layout('components.layouts.app')] class extends Component
 
         $this->purchasers = $purchaserList;
     }
+
     public function submit(): void
     {
         $this->validate();
