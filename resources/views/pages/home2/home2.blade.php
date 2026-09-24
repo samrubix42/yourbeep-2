@@ -1378,10 +1378,9 @@
 
                         <!-- CTA Button -->
                         <div class="pt-2">
-                            <a href="https://www.yourbeep.com/courses/6a41f00fdc0af597eb154d43/pricing" class="w-full inline-flex items-center justify-center gap-1.5 bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-400 hover:to-emerald-400 text-white font-black py-4 px-3 sm:px-6 rounded-2xl shadow-lg hover:shadow-xl transition transform duration-150 active:scale-95 text-[9px] sm:text-[10px] md:text-xs whitespace-nowrap uppercase tracking-wider cursor-pointer text-center">
-                                <span>Claim Early Member Price Before It Closes</span>
-                                <i class="ri-arrow-right-line text-xs sm:text-sm"></i>
-                            </a>
+                            <form>
+                                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_TfmZwaaZzSA6KN" async> </script>
+                            </form>
                         </div>
 
                         <!-- Risk Reversal Guarantee -->
