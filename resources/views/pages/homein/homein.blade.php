@@ -35,7 +35,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <!-- Hero Content Header -->
             <div class="text-center max-w-4xl mx-auto space-y-4 mb-2">
-
+             
                 <!-- Trust Badge Above the Fold -->
                 <div class="flex flex-wrap items-center justify-center gap-2 mt-2">
                     <div class="flex text-amber-500 text-sm">
@@ -46,14 +46,14 @@
                         <i class="ri-star-fill"></i>
                     </div>
                     <span class="text-slate-700 text-xs font-bold">4.9/5 Rating</span>
-
+                   
                 </div>
 
                 <!-- Main Hero Headline -->
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-slate-900 leading-[1.15] font-sans">
                     Rewire Your Mind Through Games Without Meditation,<br>
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-amber-500 font-extrabold block mt-2">
-                        Affirmations or 21-Day Challenges.
+                         Affirmations or 21-Day Challenges.
                     </span>
                 </h1>
 
@@ -69,7 +69,7 @@
                     <!-- Subtle glow effect behind -->
                     <div class="absolute -top-12 -left-12 w-24 h-24 bg-amber-500/10 rounded-full blur-xl pointer-events-none"></div>
                     <div class="absolute -bottom-12 -right-12 w-24 h-24 bg-teal-500/10 rounded-full blur-xl pointer-events-none"></div>
-
+                    
                     <div class="relative z-10 space-y-1 font-sans">
                         <p class="text-base sm:text-lg text-slate-700 leading-relaxed font-semibold">
                             Learn how to <span class="bg-gradient-to-r from-amber-600 to-rose-600 bg-clip-text text-transparent font-extrabold">rewire your mind</span> without meditation, without affirmations, and without a 21-day challenge.
@@ -83,7 +83,7 @@
 
             <!-- Form Section with Grid Split -->
             <div id="registration-section" class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start pt-6">
-
+                
                 <!-- Left Side: Image and BSI Content below it -->
                 <div class="lg:col-span-7 space-y-8">
 
@@ -126,29 +126,29 @@
                             }
                             this.startAutoSlide();
                         }
-                    }"
-                        x-init="startAutoSlide()"
-                        @mouseenter="stopAutoSlide()"
-                        @mouseleave="startAutoSlide()"
-                        @touchstart="handleTouchStart($event)"
-                        @touchmove="handleTouchMove($event)"
-                        @touchend="handleTouchEnd($event)"
-                        @touchcancel="startAutoSlide()"
-                        wire:ignore
-                        class="relative group rounded-3xl overflow-hidden transition-transform duration-300 hover:scale-[1.01] flex flex-col cursor-grab active:cursor-grabbing touch-pan-y">
-
+                    }" 
+                    x-init="startAutoSlide()"
+                    @mouseenter="stopAutoSlide()"
+                    @mouseleave="startAutoSlide()"
+                    @touchstart="handleTouchStart($event)"
+                    @touchmove="handleTouchMove($event)"
+                    @touchend="handleTouchEnd($event)"
+                    @touchcancel="startAutoSlide()"
+                    wire:ignore
+                    class="relative group rounded-3xl overflow-hidden transition-transform duration-300 hover:scale-[1.01] flex flex-col cursor-grab active:cursor-grabbing touch-pan-y">
+                        
                         <!-- Image Container with Transition effects -->
                         <div class="relative w-full aspect-[1.5/1] rounded-3xl overflow-hidden">
                             <div class="flex w-full h-full transition-transform duration-500 ease-out"
-                                :style="'transform: translateX(-' + (activeSlide * 100) + '%)'">
+                                 :style="'transform: translateX(-' + (activeSlide * 100) + '%)'">
                                 @foreach ([
-                                asset('Mobile graphic - slide 1-1.png'),
-                                asset('Mobile graphic - slide 2-1.png'),
-                                asset('Mobile graphic - slide 3-1.png')
+                                    asset('Mobile graphic - slide 1-1.png'),
+                                    asset('Mobile graphic - slide 2-1.png'),
+                                    asset('Mobile graphic - slide 3-1.png')
                                 ] as $idx => $img)
-                                <div class="w-full h-full flex-shrink-0">
-                                    <img src="{{ $img }}" alt="Behavioral Signals Masterclass Slide" class="w-full h-full object-contain select-none pointer-events-none">
-                                </div>
+                                    <div class="w-full h-full flex-shrink-0">
+                                        <img src="{{ $img }}" alt="Behavioral Signals Masterclass Slide" class="w-full h-full object-contain select-none pointer-events-none">
+                                    </div>
                                 @endforeach
                             </div>
                         </div>
@@ -156,10 +156,10 @@
                         <!-- Indicator Dots inside the card -->
                         <div class="flex justify-center gap-2 mt-4 mb-2">
                             @foreach ([0, 1, 2] as $idx)
-                            <button @click="activeSlide = {{ $idx }}"
-                                :class="activeSlide === {{ $idx }} ? 'w-6 bg-teal-500' : 'w-2 bg-slate-300 hover:bg-slate-400'"
-                                class="h-2 rounded-full transition-all duration-300 cursor-pointer"
-                                aria-label="Go to slide {{ $idx + 1 }}"></button>
+                                <button @click="activeSlide = {{ $idx }}" 
+                                        :class="activeSlide === {{ $idx }} ? 'w-6 bg-teal-500' : 'w-2 bg-slate-300 hover:bg-slate-400'"
+                                        class="h-2 rounded-full transition-all duration-300 cursor-pointer"
+                                        aria-label="Go to slide {{ $idx + 1 }}"></button>
                             @endforeach
                         </div>
                     </div>
@@ -172,12 +172,12 @@
 
                         <div class="flex items-center gap-3 text-teal-600">
                             <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-teal-50 text-teal-650 text-base"><i class="ri-pulse-line"></i></span>
-                            <span class="text-xs font-bold uppercase tracking-wider text-teal-800">Behavioural
-                                Signal Intelligence (BSI)</span>
+                            <span class="text-xs font-bold uppercase tracking-wider text-teal-800">Behavioural 
+Signal Intelligence (BSI)</span>
                         </div>
 
                         <p class="text-sm text-slate-600 leading-relaxed font-light font-sans">
-                            <strong>Yourbeep</strong> is the first gamified wellbeing platform built around an exclusive <strong class="text-teal-700 font-semibold">Behavioural Signal Intelligence (BSI)</strong> framework that integrates your Emotional, Somatic, and Pattern Resonance into one powerful personal growth metric: your <strong class="text-teal-700 font-bold">Resonance Quotient (RQ)</strong>.
+                            <strong>Yourbeep</strong> is the first gamified wellbeing platform  built around an exclusive <strong class="text-teal-700 font-semibold">Behavioural Signal Intelligence (BSI)</strong> framework that integrates your Emotional, Somatic, and Pattern Resonance into one powerful personal growth metric: your <strong class="text-teal-700 font-bold">Resonance Quotient (RQ)</strong>.
                         </p>
                     </div>
                 </div>
@@ -188,70 +188,114 @@
 
                     <div class="relative bg-white border border-slate-200/85 rounded-3xl p-6 sm:p-8 shadow-2xl backdrop-blur-sm">
                         @if ($this->success)
-                        <!-- Success State -->
-                        <div class="text-center py-6 space-y-6">
-                            <div class="w-16 h-16 rounded-full bg-emerald-50 border border-emerald-100 flex items-center justify-center mx-auto text-emerald-650 shadow-inner">
-                                <i class="ri-checkbox-circle-fill text-4xl"></i>
-                            </div>
-                            <div class="space-y-2">
-                                <h3 class="text-2xl font-bold text-slate-900 tracking-tight">Access Secured!</h3>
-                                <p class="text-slate-600 text-sm">
-                                    Thank you for showing your interest here, <strong class="text-slate-850">{{ $this->name }}</strong>. We will contact you shortly.
-                                </p>
-                            </div>
-
-                            <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 text-left space-y-2 shadow-xs">
-                                <span class="text-xs font-bold text-teal-700 uppercase tracking-widest block">🚀 DETAILS CONFIRMED</span>
-                                <p class="text-xs text-slate-550 leading-relaxed">
-                                    We have registered your email <strong>{{ $this->email }}</strong>. Thank you for showing your interest here, we will contact you shortly!
-                                </p>
-                            </div>
-
-                            <button type="button" wire:click="resetForm" class="text-xs text-slate-500 hover:text-slate-700 underline underline-offset-4 cursor-pointer">
-                                Submit another user
-                            </button>
-                        </div>
-                        @else
-                        <!-- Active Form State -->
-                        <div class="space-y-6">
-                            <div class="border-b border-slate-100 pb-4 space-y-3">
-                                <div class="flex items-center justify-between">
-                                    <span class="inline-flex items-center gap-1 px-3 py-1 bg-rose-50 border border-rose-100 rounded-full text-[10px] font-extrabold text-rose-700 uppercase tracking-wide">
-                                        🎫 Limited Spots Open
-                                    </span>
-                                    <span class="flex h-2 w-2 relative">
-                                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-                                    </span>
+                            <!-- Success State -->
+                            <div class="text-center py-6 space-y-6">
+                                <div class="w-16 h-16 rounded-full bg-emerald-50 border border-emerald-100 flex items-center justify-center mx-auto text-emerald-650 shadow-inner">
+                                    <i class="ri-checkbox-circle-fill text-4xl"></i>
                                 </div>
-                                <h3 class="text-2xl font-black text-slate-900 tracking-tight leading-tight">
-                                    Start Your Journey
-                                </h3>
-
-                                <!-- Offer Box -->
-                                <div class="bg-amber-500/5 border border-amber-500/25 rounded-2xl p-3.5 space-y-2 text-left">
-                                    <div class="flex items-center justify-between text-xs">
-                                        <span class="font-bold text-slate-800">Special Launch Offer:</span>
-                                        <span class="font-bold text-slate-950"><span class="line-through text-slate-400 text-[10px] mr-1">₹499</span> ₹299 <span class="text-rose-600 text-[10px] font-extrabold">(Save 40% Today)</span></span>
-                                    </div>
-                                    <div class="border-t border-slate-200/50 my-1.5"></div>
-                                    <p class="text-[11px] text-slate-600 leading-relaxed font-light">
-                                        <strong class="font-bold text-slate-800">Includes:</strong> 60-Min BSI Masterclass + Guided Exercises + 1-Year Access
+                                <div class="space-y-2">
+                                    <h3 class="text-2xl font-bold text-slate-900 tracking-tight">Access Secured!</h3>
+                                    <p class="text-slate-600 text-sm">
+                                        Thank you for showing your interest here, <strong class="text-slate-850">{{ $this->name }}</strong>. We will contact you shortly.
                                     </p>
                                 </div>
+
+                                <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 text-left space-y-2 shadow-xs">
+                                    <span class="text-xs font-bold text-teal-700 uppercase tracking-widest block">🚀 DETAILS CONFIRMED</span>
+                                    <p class="text-xs text-slate-550 leading-relaxed">
+                                        We have registered your email <strong>{{ $this->email }}</strong>. Thank you for showing your interest here, we will contact you shortly!
+                                    </p>
+                                </div>
+
+                                <button type="button" wire:click="resetForm" class="text-xs text-slate-500 hover:text-slate-700 underline underline-offset-4 cursor-pointer">
+                                    Submit another user
+                                </button>
                             </div>
+                        @else
+                            <!-- Active Form State -->
+                            <div class="space-y-6">
+                                <div class="border-b border-slate-100 pb-4 space-y-3">
+                                    <div class="flex items-center justify-between">
+                                        <span class="inline-flex items-center gap-1 px-3 py-1 bg-rose-50 border border-rose-100 rounded-full text-[10px] font-extrabold text-rose-700 uppercase tracking-wide">
+                                            🎫 Limited Spots Open
+                                        </span>
+                                        <span class="flex h-2 w-2 relative">
+                                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="text-2xl font-black text-slate-900 tracking-tight leading-tight">
+                                        Start Your Journey
+                                    </h3>
+                                    
+                                    <!-- Offer Box -->
+                                    <div class="bg-amber-500/5 border border-amber-500/25 rounded-2xl p-3.5 space-y-2 text-left">
+                                        <div class="flex items-center justify-between text-xs">
+                                            <span class="font-bold text-slate-800">Special Launch Offer:</span>
+                                            <span class="font-bold text-slate-950"><span class="line-through text-slate-400 text-[10px] mr-1">₹499</span> ₹299 <span class="text-rose-600 text-[10px] font-extrabold">(Save 40% Today)</span></span>
+                                        </div>
+                                        <div class="border-t border-slate-200/50 my-1.5"></div>
+                                        <p class="text-[11px] text-slate-600 leading-relaxed font-light">
+                                            <strong class="font-bold text-slate-800">Includes:</strong> 60-Min BSI Masterclass + Guided Exercises + 1-Year Access
+                                        </p>
+                                    </div>
+                                </div>
+
+                               
 
 
-
-
-                            <form>
-                                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_TfmZwaaZzSA6KN" async> </script>
-                            </form>
-
-                            <div class="border-t border-slate-100 pt-4 text-center">
-                                <span class="text-[10px] text-slate-450 block font-light"><i class="ri-lock-fill text-teal-600 mr-1"></i> Verified SSL Secure Connection</span>
+<form>
+  <a href="https://payments.cashfree.com/forms/joinyourbeep1" target="_parent">
+    <div class="button-container" style="background: #000">
+      <div>
+        <img src="https://cashfree-checkoutcartimages-prod.cashfree.com/Transperent_DarkEaqgp7g5u780_prod.png" alt="logo" class="logo-container">
+      </div>
+      <div class="text-container">
+        <div style="font-family: Arial; color: #fff; margin-bottom: 5px; font-size: 14px;">
+          Enroll Now
+        </div>
+        <div style="font-family: Arial; color: #fff; font-size: 10px;">
+            <span>Powered By Cashfree</span>
+            <img src="https://cashfreelogo.cashfree.com/cashfreepayments/logosvgs/Group_4355.svg" alt="logo" class="seconday-logo-container">
+        </div>
+      </div>
+    </div>
+  </a>
+ <style>
+  .button-container{
+      border: 1px solid black;
+      border-radius: 15px;
+      display: flex;
+      padding: 10px;
+      width: fit-content;
+      cursor: pointer;
+  }
+  .text-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10px;
+      justify-content: center;
+      margin-right: 10px;
+  }
+  .logo-container{
+      width: 40px;
+      height: 40px;
+  }
+  .seconday-logo-container{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+  a{
+    text-decoration:none;
+  }
+</style>
+</form>
+                                <div class="border-t border-slate-100 pt-4 text-center">
+                                    <span class="text-[10px] text-slate-450 block font-light"><i class="ri-lock-fill text-teal-600 mr-1"></i> Verified SSL Secure Connection</span>
+                                </div>
                             </div>
-                        </div>
                         @endif
                     </div>
                 </div>
@@ -339,7 +383,7 @@
                         <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-rose-50 text-rose-600 text-lg font-bold">🙅</span>
                         <h3 class="text-lg font-bold text-slate-900 font-sans">Traditional Wellness Apps</h3>
                     </div>
-
+                    
                     <ul class="space-y-6">
                         <li class="flex gap-3">
                             <span class="w-5 h-5 rounded-full bg-rose-50 border border-rose-100 flex items-center justify-center shrink-0 mt-0.5"><i class="ri-close-line text-rose-500 text-xs"></i></span>
@@ -372,7 +416,7 @@
                         <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-teal-50 text-teal-655 text-lg font-bold">✨</span>
                         <h3 class="text-lg font-bold text-slate-900 font-sans">The BSI™ Masterclass Method</h3>
                     </div>
-
+                    
                     <ul class="space-y-6">
                         <li class="flex gap-3">
                             <span class="w-5 h-5 rounded-full bg-teal-50 border border-teal-100 flex items-center justify-center shrink-0 mt-0.5"><i class="ri-check-line text-teal-655 text-xs font-bold"></i></span>
@@ -433,7 +477,7 @@
                         <div class="space-y-3">
                             <h3 class="text-xl font-bold text-slate-900 font-sans">Science in, jargon out</h3>
                             <p class="text-sm text-slate-600 leading-relaxed font-light font-sans">
-                                You want tools grounded in real behavioural science not crystals, not affirmations, not a 21-day challenge that resets to zero on day 22. You want to be better at life, and you want a comprehensive method to hold up under scrutiny.
+                                You want tools grounded in real behavioural science  not crystals, not affirmations, not a 21-day challenge that resets to zero on day 22. You want to be better at life, and you want a comprehensive method to hold up under scrutiny.
                             </p>
                         </div>
                     </div>
@@ -448,7 +492,7 @@
                         <div class="space-y-3">
                             <h3 class="text-xl font-bold text-slate-900 font-sans">Proof that the process is working</h3>
                             <p class="text-sm text-slate-600 leading-relaxed font-light font-sans">
-                                No abstract breakthroughs. There’s still the "trust the process", but with evidence to show for it. Yourbeep’s methodology gives you a real-time “Resonance Quotient” a personal growth metric that moves as you grow, so progress is something you measure, not just something you feel.
+                                No abstract breakthroughs. There’s still the "trust the process", but with evidence to show for it. Yourbeep’s methodology gives you a real-time “Resonance Quotient”  a personal growth metric that moves as you grow, so progress is something you measure, not just something you feel.
                             </p>
                         </div>
                     </div>
@@ -463,7 +507,7 @@
                         <div class="space-y-3">
                             <h3 class="text-xl font-bold text-slate-900 font-sans">Built for a full life, not a free one</h3>
                             <p class="text-sm text-slate-600 leading-relaxed font-light font-sans">
-                                Gamified activities designed for people juggling work, family, ambition, and everything in between. No meditation den required. No hour-long sessions. No guilt when life gets in the way. Just 10 minutes wherever you are, whenever you can.
+                                Gamified activities designed for people juggling work, family, ambition, and everything in between. No meditation den required. No hour-long sessions. No guilt when life gets in the way. Just 10 minutes  wherever you are, whenever you can.
                             </p>
                         </div>
                     </div>
@@ -507,7 +551,7 @@
                         <div class="space-y-3">
                             <h3 class="text-xl font-bold text-white font-sans">Active Self-Inquiry, Not Passive Calm</h3>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                Understand how behavioural patterns are formed sneakily without conscious awareness and why this single mindset shift changes everything about how you approach growth, relationships, and performance.
+                                Understand how behavioural patterns are formed sneakily without conscious awareness  and why this single mindset shift changes everything about how you approach growth, relationships, and performance.
                             </p>
                         </div>
                     </div>
@@ -537,7 +581,7 @@
                         <div class="space-y-3">
                             <h3 class="text-xl font-bold text-white font-sans">The BSI Framework Your Personal Behavioural Intelligence System</h3>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                A full introduction to Behavioural Signal Intelligence built around Emotional, Somatic, and Pattern Resonance giving you a measurable, personal picture of your inner state for the first time.
+                                A full introduction to Behavioural Signal Intelligence  built around Emotional, Somatic, and Pattern Resonance  giving you a measurable, personal picture of your inner state for the first time.
                             </p>
                         </div>
                     </div>
@@ -552,7 +596,7 @@
                         <div class="space-y-3">
                             <h3 class="text-xl font-bold text-white font-sans">BSI Activities Not a Demo. The Real Thing.</h3>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                This isn't a walkthrough. You'll do an actual gamified BSI exercise from the yourbeep platform so you feel the shift, not just understand it. Most people notice something they've never noticed before.
+                                This isn't a walkthrough. You'll do an actual gamified BSI exercise from the yourbeep platform  so you feel the shift, not just understand it. Most people notice something they've never noticed before.
                             </p>
                         </div>
                     </div>
@@ -567,7 +611,7 @@
                         <div class="space-y-3">
                             <h3 class="text-xl font-bold text-white font-sans">The Internal Shift Finds You – No Chase. No BS.</h3>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                Practical somatic techniques to release fight-or-flight mode plus creative expression mapping exercises you can use anywhere, anytime, when life is happening at full speed. When the nervous system is regulated, a state of equilibrium brings inner transformation.
+                                Practical somatic techniques to release fight-or-flight mode  plus creative expression mapping exercises you can use anywhere, anytime, when life is happening at full speed. When the nervous system is regulated, a state of equilibrium brings inner transformation.
                             </p>
                         </div>
                     </div>
@@ -643,7 +687,7 @@
         </div>
     </section>
 
-    <!-- TESTIMONIALS SECTION -->
+        <!-- TESTIMONIALS SECTION -->
     <section class="w-full bg-slate-950 py-20 sm:py-28 relative overflow-hidden border-t border-slate-900">
         <!-- Background decorative glows -->
         <div class="absolute top-1/2 left-1/4 w-[450px] h-[450px] bg-rose-500/[0.04] rounded-full blur-[100px] pointer-events-none"></div>
@@ -663,17 +707,17 @@
                         See how early access members are decoding their behaviors and resetting their routines.
                     </p>
                 </div>
-
+                
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
                     <!-- Video 1 -->
                     <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-teal-500/30 group max-w-[260px] w-full mx-auto">
                         <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
-                            <iframe
-                                class="absolute inset-0 w-full h-full"
-                                src="https://www.youtube.com/embed/WskXjQ2UTIk?rel=0&modestbranding=1"
-                                title="Yourbeep Video Testimonial 1"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            <iframe 
+                                class="absolute inset-0 w-full h-full" 
+                                src="https://www.youtube.com/embed/WskXjQ2UTIk?rel=0&modestbranding=1" 
+                                title="Yourbeep Video Testimonial 1" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 allowfullscreen>
                             </iframe>
                         </div>
@@ -686,12 +730,12 @@
                     <!-- Video 2 -->
                     <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-rose-500/30 group max-w-[260px] w-full mx-auto">
                         <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
-                            <iframe
-                                class="absolute inset-0 w-full h-full"
-                                src="https://www.youtube.com/embed/P2enxeLhMPU?rel=0&modestbranding=1"
-                                title="Yourbeep Video Testimonial 2"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            <iframe 
+                                class="absolute inset-0 w-full h-full" 
+                                src="https://www.youtube.com/embed/P2enxeLhMPU?rel=0&modestbranding=1" 
+                                title="Yourbeep Video Testimonial 2" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 allowfullscreen>
                             </iframe>
                         </div>
@@ -704,12 +748,12 @@
                     <!-- Video 3 -->
                     <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-4 flex flex-col items-center space-y-4 shadow-xl transition-all duration-300 hover:scale-[1.02] hover:bg-slate-900/80 hover:border-amber-500/30 group max-w-[260px] w-full mx-auto sm:col-span-2 lg:col-span-1">
                         <div class="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-black/60">
-                            <iframe
-                                class="absolute inset-0 w-full h-full"
-                                src="https://www.youtube.com/embed/qoqENvpIVNo?rel=0&modestbranding=1"
-                                title="Yourbeep Video Testimonial 3"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            <iframe 
+                                class="absolute inset-0 w-full h-full" 
+                                src="https://www.youtube.com/embed/qoqENvpIVNo?rel=0&modestbranding=1" 
+                                title="Yourbeep Video Testimonial 3" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 allowfullscreen>
                             </iframe>
                         </div>
@@ -732,7 +776,7 @@
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-
+                
                 <!-- Left Side: Founder Image & Quote Badge -->
                 <div class="lg:col-span-5 space-y-6">
                     <!-- Image Card with Glow & Borders -->
@@ -741,7 +785,7 @@
                         <div class="absolute inset-0 bg-gradient-to-tr from-teal-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10"></div>
                         <img src="{{ asset('founder.webp') }}" alt="Alolika - Founder of Yourbeep" class="w-full h-auto rounded-2xl object-cover shadow-xs">
                     </div>
-
+                    
                     <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-xs text-center space-y-1">
                         <h3 class="text-base font-bold text-slate-900 font-sans">Alolika</h3>
                         <span class="inline-block text-xs font-bold text-teal-700 bg-teal-50 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Architect of BSI</span>
@@ -756,7 +800,7 @@
                         <h2 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight font-sans">
                             About the Founder
                         </h2>
-
+                        
                         <p class="text-base sm:text-lg text-slate-700 leading-relaxed font-light font-sans">
                             Most behavioural frameworks give you one lens cognitive, somatic, or spiritual. BSI gives you all of them at once. Because its architect hasn't just studied human behaviour. She's lived it from every angle possible.
                         </p>
@@ -891,7 +935,7 @@
                 <p class="text-sm sm:text-base text-slate-500 font-light font-sans leading-relaxed">
                     You've probably tried some kind of mental wellness platform. If you’re still not sure, here's an honest look at what each actually delivers.
                 </p>
-
+                
                 <!-- Emoji Legend Badges -->
                 <div class="pt-4 flex flex-wrap justify-center gap-3 text-xs">
                     <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-white border border-slate-200 rounded-full text-slate-600 shadow-2xs font-sans">
@@ -1004,7 +1048,7 @@
                     <span>Swipe horizontally to compare platforms</span> <i class="ri-arrow-right-line"></i>
                 </p>
                 <div class="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-6 scrollbar-hide -mx-4 px-4">
-
+                    
                     <!-- Card 1 -->
                     <div class="snap-center shrink-0 w-80 bg-white border border-slate-200 rounded-2xl p-5 space-y-4 shadow-md">
                         <h4 class="text-sm font-bold text-slate-800 leading-snug">“I just need a quick moment to center myself”</h4>
@@ -1219,7 +1263,7 @@
             <div class="mt-16 text-center max-w-3xl mx-auto space-y-6">
                 <div class="inline-block bg-teal-500/[0.04] border-l-4 border-teal-600 px-6 py-4 rounded-r-2xl text-left shadow-xs">
                     <p class="text-slate-800 text-base sm:text-lg font-light leading-relaxed font-sans">
-                        Yourbeep isn't for everyone <strong class="text-teal-900 font-bold">and that's the point.</strong>
+                        Yourbeep isn't for everyone  <strong class="text-teal-900 font-bold">and that's the point.</strong>
                     </p>
                     <p class="text-slate-650 text-sm sm:text-base font-light leading-relaxed font-sans">
                         It's for the ones who want to understand themselves, not just feel better for a day.
@@ -1251,7 +1295,7 @@
                     Everything You Get Today
                 </h2>
                 <p class="text-sm sm:text-base text-slate-400 font-light font-sans">
-                    As a founding member of yourbeep before the price goes up.
+                    As a founding member of yourbeep  before the price goes up.
                 </p>
             </div>
 
@@ -1266,7 +1310,7 @@
                         <div class="space-y-2">
                             <h4 class="text-base font-bold text-white font-sans">The BSI Masterclass</h4>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                Your foundational introduction to Behavioural Signal Intelligence 6 real gamified activities, introduction to the BSI framework, and a partial RQ dashboard. In under 60 minutes.
+                                Your foundational introduction to Behavioural Signal Intelligence  6 real gamified activities, introduction to the BSI framework, and a partial RQ dashboard. In under 60 minutes.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
                                 Yours at <span class="line-through text-slate-500">₹499</span> ₹299
@@ -1282,7 +1326,7 @@
                         <div class="space-y-2">
                             <h4 class="text-base font-bold text-white font-sans">6 Gamified BSI Activities</h4>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                Not demos. Not theory. Actual yourbeep platform activities across Emotional, Somatic, and Pattern Resonance that you can start using the same day.
+                                Not demos. Not theory. Actual yourbeep platform activities  across Emotional, Somatic, and Pattern Resonance  that you can start using the same day.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
                                 <span class="line-through text-slate-500">₹499</span> Included
@@ -1298,7 +1342,7 @@
                         <div class="space-y-2">
                             <h4 class="text-base font-bold text-white font-sans">Your Partial RQ Dashboard</h4>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                A first look at your personal Resonance Quotient your Emotional, Somatic, and Pattern Resonance scores so you can see where your signals are aligned and where they need work.
+                                A first look at your personal Resonance Quotient  your Emotional, Somatic, and Pattern Resonance scores  so you can see where your signals are aligned and where they need work.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
                                 <span class="line-through text-slate-500">₹499</span> Included
@@ -1314,7 +1358,7 @@
                         <div class="space-y-2">
                             <h4 class="text-base font-bold text-white font-sans">Monthly Founding Member Community Meets</h4>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                Live sessions with Alolika and fellow founding members to share progress, ask questions, and stay accountable. Only available to this founding cohort.
+                                Live sessions with Alolika and fellow founding members  to share progress, ask questions, and stay accountable. Only available to this founding cohort.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
                                 <span class="line-through text-slate-500">₹999/month</span> Included
@@ -1344,7 +1388,7 @@
                     <div class="bg-slate-900 text-white rounded-3xl p-8 sm:p-10 shadow-2xl relative overflow-hidden border border-slate-800 space-y-8">
                         <!-- Corner Accent glow -->
                         <div class="absolute top-0 right-0 w-32 h-32 bg-teal-500/20 rounded-full blur-2xl pointer-events-none"></div>
-
+                        
                         <div class="space-y-2">
                             <span class="text-xs font-bold text-teal-400 uppercase tracking-widest block font-sans">Summary</span>
                             <h3 class="text-xl font-bold font-sans">Your Founding Membership</h3>
@@ -1356,7 +1400,7 @@
                                 <span class="text-slate-400 font-light font-sans">Total value</span>
                                 <span class="text-slate-200 font-semibold font-mono text-base">₹2,495</span>
                             </div>
-
+                            
                             <div class="flex justify-between items-center text-sm">
                                 <span class="text-slate-400 font-light font-sans">Your founding member price</span>
                                 <div class="flex items-baseline gap-2">
@@ -1373,7 +1417,7 @@
 
                         <!-- Warning / Closing text -->
                         <p class="text-xs text-slate-400 leading-relaxed font-light font-sans">
-                            This price closes soon. After that, Early Member Access is gone and so is the masterclass credit toward the full course.
+                            This price closes soon. After that, Early Member Access is gone  and so is the masterclass credit toward the full course.
                         </p>
 
                         <!-- CTA Button -->
@@ -1418,7 +1462,7 @@
             <div class="max-w-xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 space-y-6 shadow-2xl relative overflow-hidden">
                 <!-- Soft glow details in card -->
                 <div class="absolute top-0 right-0 w-32 h-32 bg-teal-500/[0.03] rounded-full blur-2xl pointer-events-none"></div>
-
+                
                 <div class="flex items-center justify-between border-b border-slate-100 pb-4 flex-wrap gap-2">
                     <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs font-bold uppercase tracking-wider">
                         🎯 BSI Masterclass
@@ -1476,7 +1520,7 @@
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-
+                
                 <!-- Left Side: Header Copy -->
                 <div class="lg:col-span-5 space-y-4 sticky top-8">
                     <span class="text-xs font-bold text-teal-650 uppercase tracking-widest block font-sans">Frequently Asked Questions</span>
@@ -1492,22 +1536,22 @@
                 <div class="lg:col-span-7 space-y-4" x-data="{ activeAccordion: null }">
                     <!-- FAQ 1 -->
                     <div class="border border-slate-200 rounded-2xl bg-white shadow-xs overflow-hidden transition-all duration-300">
-                        <button @click="activeAccordion = (activeAccordion === 1 ? null : 1)"
-                            class="w-full p-6 text-left flex justify-between items-center gap-4 hover:bg-slate-50/50 transition">
+                        <button @click="activeAccordion = (activeAccordion === 1 ? null : 1)" 
+                                class="w-full p-6 text-left flex justify-between items-center gap-4 hover:bg-slate-50/50 transition">
                             <span class="text-sm sm:text-base font-bold text-slate-900 font-sans">Is this a live masterclass or recorded?</span>
                             <span class="shrink-0 w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center border border-slate-200 transition duration-300"
-                                :class="activeAccordion === 1 ? 'rotate-180 bg-teal-50 border-teal-200 text-teal-655' : 'text-slate-500'">
+                                  :class="activeAccordion === 1 ? 'rotate-180 bg-teal-50 border-teal-200 text-teal-655' : 'text-slate-500'">
                                 <i class="ri-arrow-down-s-line text-lg"></i>
                             </span>
                         </button>
-                        <div x-show="activeAccordion === 1"
-                            x-transition:enter="transition ease-out duration-200"
-                            x-transition:enter-start="opacity-0 max-h-0"
-                            x-transition:enter-end="opacity-100 max-h-[500px]"
-                            x-transition:leave="transition ease-in duration-150"
-                            x-transition:leave-start="opacity-100 max-h-[500px]"
-                            x-transition:leave-end="opacity-0 max-h-0"
-                            class="px-6 pb-6 pt-0 border-t border-slate-100/50">
+                        <div x-show="activeAccordion === 1" 
+                             x-transition:enter="transition ease-out duration-200"
+                             x-transition:enter-start="opacity-0 max-h-0"
+                             x-transition:enter-end="opacity-100 max-h-[500px]"
+                             x-transition:leave="transition ease-in duration-150"
+                             x-transition:leave-start="opacity-100 max-h-[500px]"
+                             x-transition:leave-end="opacity-0 max-h-0"
+                             class="px-6 pb-6 pt-0 border-t border-slate-100/50">
                             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-light font-sans">
                                 The BSI Masterclass is pre-recorded, self-paced, and split into digestible 10-minute segments. This allows you to fit it into your schedule without having to attend a live call at a specific time.
                             </p>
@@ -1516,22 +1560,22 @@
 
                     <!-- FAQ 2 -->
                     <div class="border border-slate-200 rounded-2xl bg-white shadow-xs overflow-hidden transition-all duration-300">
-                        <button @click="activeAccordion = (activeAccordion === 2 ? null : 2)"
-                            class="w-full p-6 text-left flex justify-between items-center gap-4 hover:bg-slate-50/50 transition">
+                        <button @click="activeAccordion = (activeAccordion === 2 ? null : 2)" 
+                                class="w-full p-6 text-left flex justify-between items-center gap-4 hover:bg-slate-50/50 transition">
                             <span class="text-sm sm:text-base font-bold text-slate-900 font-sans">How long do I get access to the materials?</span>
                             <span class="shrink-0 w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center border border-slate-200 transition duration-300"
-                                :class="activeAccordion === 2 ? 'rotate-180 bg-teal-50 border-teal-200 text-teal-655' : 'text-slate-500'">
+                                  :class="activeAccordion === 2 ? 'rotate-180 bg-teal-50 border-teal-200 text-teal-655' : 'text-slate-500'">
                                 <i class="ri-arrow-down-s-line text-lg"></i>
                             </span>
                         </button>
-                        <div x-show="activeAccordion === 2"
-                            x-transition:enter="transition ease-out duration-200"
-                            x-transition:enter-start="opacity-0 max-h-0"
-                            x-transition:enter-end="opacity-100 max-h-[500px]"
-                            x-transition:leave="transition ease-in duration-150"
-                            x-transition:leave-start="opacity-100 max-h-[500px]"
-                            x-transition:leave-end="opacity-0 max-h-0"
-                            class="px-6 pb-6 pt-0 border-t border-slate-100/50">
+                        <div x-show="activeAccordion === 2" 
+                             x-transition:enter="transition ease-out duration-200"
+                             x-transition:enter-start="opacity-0 max-h-0"
+                             x-transition:enter-end="opacity-100 max-h-[500px]"
+                             x-transition:leave="transition ease-in duration-150"
+                             x-transition:leave-start="opacity-100 max-h-[500px]"
+                             x-transition:leave-end="opacity-0 max-h-0"
+                             class="px-6 pb-6 pt-0 border-t border-slate-100/50">
                             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-light font-sans">
                                 You get 1-year access to the masterclass, guided exercises, and the partial Resonance Quotient (RQ) dashboard. You can revisit the tools whenever you feel stuck.
                             </p>
@@ -1540,22 +1584,22 @@
 
                     <!-- FAQ 3 -->
                     <div class="border border-slate-200 rounded-2xl bg-white shadow-xs overflow-hidden transition-all duration-300">
-                        <button @click="activeAccordion = (activeAccordion === 3 ? null : 3)"
-                            class="w-full p-6 text-left flex justify-between items-center gap-4 hover:bg-slate-50/50 transition">
+                        <button @click="activeAccordion = (activeAccordion === 3 ? null : 3)" 
+                                class="w-full p-6 text-left flex justify-between items-center gap-4 hover:bg-slate-50/50 transition">
                             <span class="text-sm sm:text-base font-bold text-slate-900 font-sans">How is BSI different from standard mindfulness/meditation?</span>
                             <span class="shrink-0 w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center border border-slate-200 transition duration-300"
-                                :class="activeAccordion === 3 ? 'rotate-180 bg-teal-50 border-teal-200 text-teal-655' : 'text-slate-500'">
+                                  :class="activeAccordion === 3 ? 'rotate-180 bg-teal-50 border-teal-200 text-teal-655' : 'text-slate-500'">
                                 <i class="ri-arrow-down-s-line text-lg"></i>
                             </span>
                         </button>
-                        <div x-show="activeAccordion === 3"
-                            x-transition:enter="transition ease-out duration-200"
-                            x-transition:enter-start="opacity-0 max-h-0"
-                            x-transition:enter-end="opacity-100 max-h-[500px]"
-                            x-transition:leave="transition ease-in duration-150"
-                            x-transition:leave-start="opacity-100 max-h-[500px]"
-                            x-transition:leave-end="opacity-0 max-h-0"
-                            class="px-6 pb-6 pt-0 border-t border-slate-100/50">
+                        <div x-show="activeAccordion === 3" 
+                             x-transition:enter="transition ease-out duration-200"
+                             x-transition:enter-start="opacity-0 max-h-0"
+                             x-transition:enter-end="opacity-100 max-h-[500px]"
+                             x-transition:leave="transition ease-in duration-150"
+                             x-transition:leave-start="opacity-100 max-h-[500px]"
+                             x-transition:leave-end="opacity-0 max-h-0"
+                             class="px-6 pb-6 pt-0 border-t border-slate-100/50">
                             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-light font-sans">
                                 Standard mindfulness teaches you to calm yourself *after* you're already stressed. BSI™ (Behavioural Signal Intelligence) is a practical, deconstructed framework that helps you identify *why* you react or get stuck in the first place, giving you a trackable Resonance Quotient (RQ) score to measure your real-time behavioral state.
                             </p>
@@ -1564,22 +1608,22 @@
 
                     <!-- FAQ 4 -->
                     <div class="border border-slate-200 rounded-2xl bg-white shadow-xs overflow-hidden transition-all duration-300">
-                        <button @click="activeAccordion = (activeAccordion === 4 ? null : 4)"
-                            class="w-full p-6 text-left flex justify-between items-center gap-4 hover:bg-slate-50/50 transition">
+                        <button @click="activeAccordion = (activeAccordion === 4 ? null : 4)" 
+                                class="w-full p-6 text-left flex justify-between items-center gap-4 hover:bg-slate-50/50 transition">
                             <span class="text-sm sm:text-base font-bold text-slate-900 font-sans">Will this take up a lot of my time?</span>
                             <span class="shrink-0 w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center border border-slate-200 transition duration-300"
-                                :class="activeAccordion === 4 ? 'rotate-180 bg-teal-50 border-teal-200 text-teal-655' : 'text-slate-500'">
+                                  :class="activeAccordion === 4 ? 'rotate-180 bg-teal-50 border-teal-200 text-teal-655' : 'text-slate-500'">
                                 <i class="ri-arrow-down-s-line text-lg"></i>
                             </span>
                         </button>
-                        <div x-show="activeAccordion === 4"
-                            x-transition:enter="transition ease-out duration-200"
-                            x-transition:enter-start="opacity-0 max-h-0"
-                            x-transition:enter-end="opacity-100 max-h-[500px]"
-                            x-transition:leave="transition ease-in duration-150"
-                            x-transition:leave-start="opacity-100 max-h-[500px]"
-                            x-transition:leave-end="opacity-0 max-h-0"
-                            class="px-6 pb-6 pt-0 border-t border-slate-100/50">
+                        <div x-show="activeAccordion === 4" 
+                             x-transition:enter="transition ease-out duration-200"
+                             x-transition:enter-start="opacity-0 max-h-0"
+                             x-transition:enter-end="opacity-100 max-h-[500px]"
+                             x-transition:leave="transition ease-in duration-150"
+                             x-transition:leave-start="opacity-100 max-h-[500px]"
+                             x-transition:leave-end="opacity-0 max-h-0"
+                             class="px-6 pb-6 pt-0 border-t border-slate-100/50">
                             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-light font-sans">
                                 Not at all. Juggling work and life is hard enough. BSI™ is designed to be completed in under 10 minutes a day, fitting right into your schedule without causing extra pressure or guilt.
                             </p>
@@ -1630,52 +1674,48 @@
             <span class="block text-xs font-bold text-slate-900 truncate">Enroll For Just ₹299 <span class="line-through text-slate-400 font-normal">₹499</span></span>
         </div>
         <form>
-            <a href="https://payments.cashfree.com/forms/joinyourbeep1" target="_parent">
-                <div class="button-container" style="background: #000">
-
-                    <div class="text-container">
-                        <div style="font-family: Arial; color: #fff; margin-bottom: 5px; font-size: 14px;">
-                            Enroll Now
-                        </div>
-
-                    </div>
-                </div>
-            </a>
-            <style>
-                .button-container {
-                    border: 1px solid black;
-                    border-radius: 15px;
-                    display: flex;
-                    padding: 10px;
-                    width: fit-content;
-                    cursor: pointer;
-                }
-
-                .text-container {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    margin-left: 10px;
-                    justify-content: center;
-                    margin-right: 10px;
-                }
-
-                .logo-container {
-                    width: 40px;
-                    height: 40px;
-                }
-
-                .seconday-logo-container {
-                    width: 16px;
-                    height: 16px;
-                    vertical-align: middle;
-                }
-
-                a {
-                    text-decoration: none;
-                }
-            </style>
-        </form>
+  <a href="https://payments.cashfree.com/forms/joinyourbeep1" target="_parent">
+    <div class="button-container" style="background: #000">
+      
+      <div class="text-container">
+        <div style="font-family: Arial; color: #fff; margin-bottom: 5px; font-size: 14px;">
+          Enroll Now
+        </div>
+        
+      </div>
+    </div>
+  </a>
+ <style>
+  .button-container{
+      border: 1px solid black;
+      border-radius: 15px;
+      display: flex;
+      padding: 10px;
+      width: fit-content;
+      cursor: pointer;
+  }
+  .text-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10px;
+      justify-content: center;
+      margin-right: 10px;
+  }
+  .logo-container{
+      width: 40px;
+      height: 40px;
+  }
+  .seconday-logo-container{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+  a{
+    text-decoration:none;
+  }
+</style>
+</form>
     </div>
 
 </div>
