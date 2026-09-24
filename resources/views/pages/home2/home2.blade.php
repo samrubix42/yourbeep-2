@@ -21,7 +21,7 @@
 " class="w-full bg-slate-50 text-slate-800 min-h-screen flex flex-col justify-between relative">
 
     <!-- Reusable Header Livewire Component -->
-    <livewire:public.header />
+    <livewire:public.header2 />
 
     <!-- HERO SECTION (Premium Light Theme with Glow Lights and Grid Mesh) -->
     <section class="w-full bg-white border-b border-slate-200/50 py-1 sm:py-12 relative overflow-hidden flex-1">
@@ -232,7 +232,7 @@
                                 <div class="bg-amber-500/5 border border-amber-500/25 rounded-2xl p-3.5 space-y-2 text-left">
                                     <div class="flex items-center justify-between text-xs">
                                         <span class="font-bold text-slate-800">Special Launch Offer:</span>
-                                        <span class="font-bold text-slate-950"><span class="line-through text-slate-400 text-[10px] mr-1">₹499</span> ₹299 <span class="text-rose-600 text-[10px] font-extrabold">(Save 40% Today)</span></span>
+                                        <span class="font-bold text-slate-950"><span class="line-through text-slate-400 text-[10px] mr-1">$15</span> $9 <span class="text-rose-600 text-[10px] font-extrabold">(Save 40% Today)</span></span>
                                     </div>
                                     <div class="border-t border-slate-200/50 my-1.5"></div>
                                     <p class="text-[11px] text-slate-600 leading-relaxed font-light">
@@ -1269,7 +1269,7 @@
                                 Your foundational introduction to Behavioural Signal Intelligence 6 real gamified activities, introduction to the BSI framework, and a partial RQ dashboard. In under 60 minutes.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
-                                Yours at <span class="line-through text-slate-500">₹499</span> ₹299
+                                Yours at <span class="line-through text-slate-500">$15</span> $9
                             </div>
                         </div>
                     </div>
@@ -1285,7 +1285,7 @@
                                 Not demos. Not theory. Actual yourbeep platform activities across Emotional, Somatic, and Pattern Resonance that you can start using the same day.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
-                                <span class="line-through text-slate-500">₹499</span> Included
+                                <span class="line-through text-slate-500">$15</span> Included
                             </div>
                         </div>
                     </div>
@@ -1301,7 +1301,7 @@
                                 A first look at your personal Resonance Quotient your Emotional, Somatic, and Pattern Resonance scores so you can see where your signals are aligned and where they need work.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
-                                <span class="line-through text-slate-500">₹499</span> Included
+                                <span class="line-through text-slate-500">$15</span> Included
                             </div>
                         </div>
                     </div>
@@ -1317,7 +1317,7 @@
                                 Live sessions with Alolika and fellow founding members to share progress, ask questions, and stay accountable. Only available to this founding cohort.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
-                                <span class="line-through text-slate-500">₹999/month</span> Included
+                                <span class="line-through text-slate-500">$15</span> Included
                             </div>
                         </div>
                     </div>
@@ -1330,10 +1330,10 @@
                         <div class="space-y-2">
                             <h4 class="text-base font-bold text-white font-sans">Full Masterclass Fee Credited to the Full Course</h4>
                             <p class="text-sm text-slate-400 leading-relaxed font-light font-sans">
-                                Loved the masterclass and want to go deeper? Your entire <span class="line-through decoration-2 decoration-slate-400 text-slate-500">₹499</span> ₹299 is credited toward the full BSI course when you upgrade. You pay nothing twice.
+                                Loved the masterclass and want to go deeper? Your entire <span class="line-through decoration-2 decoration-slate-400 text-slate-500">$15</span> $9 is credited toward the full BSI course when you upgrade. You pay nothing twice.
                             </p>
                             <div class="text-xs font-bold font-sans text-teal-400">
-                                <span class="line-through decoration-2 decoration-slate-500 text-slate-500">₹499</span> ₹299 Credited back in full
+                                <span class="line-through decoration-2 decoration-slate-500 text-slate-500">$15</span> $9 Credited back in full
                             </div>
                         </div>
                     </div>
@@ -1354,20 +1354,20 @@
                         <div class="space-y-4 border-t border-slate-800 pt-6">
                             <div class="flex justify-between items-center text-sm">
                                 <span class="text-slate-400 font-light font-sans">Total value</span>
-                                <span class="text-slate-200 font-semibold font-mono text-base">₹2,495</span>
+                                <span class="text-slate-200 font-semibold font-mono text-base">$75</span>
                             </div>
 
                             <div class="flex justify-between items-center text-sm">
                                 <span class="text-slate-400 font-light font-sans">Your founding member price</span>
                                 <div class="flex items-baseline gap-2">
-                                    <span class="text-teal-400 font-black font-mono text-2xl">₹299</span>
-                                    <span class="text-slate-550 line-through text-sm font-normal">₹499</span>
+                                    <span class="text-teal-400 font-black font-mono text-2xl">$9</span>
+                                    <span class="text-slate-550 line-through text-sm font-normal">$15</span>
                                 </div>
                             </div>
 
                             <div class="flex justify-between items-center bg-teal-950/50 border border-teal-800/30 px-4 py-3 rounded-2xl">
                                 <span class="text-teal-300 text-xs font-bold uppercase tracking-wider font-sans">You save</span>
-                                <span class="text-teal-400 font-black font-mono text-lg">₹2,196</span>
+                                <span class="text-teal-400 font-black font-mono text-lg">$66</span>
                             </div>
                         </div>
 
@@ -1424,8 +1424,8 @@
                         🎯 BSI Masterclass
                     </span>
                     <div class="flex items-baseline gap-2">
-                        <span class="text-sm text-slate-400 line-through">₹499</span>
-                        <span class="text-3xl font-black text-slate-900 font-sans">₹299</span>
+                        <span class="text-sm text-slate-400 line-through">$15</span>
+                        <span class="text-3xl font-black text-slate-900 font-sans">$9</span>
                     </div>
                 </div>
 
@@ -1627,7 +1627,7 @@
                 <span class="w-1.5 h-1.5 rounded-full bg-rose-500 animate-pulse"></span>
                 MASTERCLASS
             </span>
-            <span class="block text-xs font-bold text-slate-900 truncate">Enroll For Just ₹299 <span class="line-through text-slate-400 font-normal">₹499</span></span>
+            <span class="block text-xs font-bold text-slate-900 truncate">Enroll For Just $9 <span class="line-through text-slate-400 font-normal">$15</span></span>
         </div>
         <form>
             <a href="https://payments.cashfree.com/forms/joinyourbeep1" target="_parent">

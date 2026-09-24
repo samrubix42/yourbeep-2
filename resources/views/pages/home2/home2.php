@@ -20,7 +20,7 @@ new #[Layout('components.layouts.app')] class extends Component
 
     public bool $success = false;
 
-    public int $price = 299;
+    public int $price = 9;
 
     /** @var array<int, array{name: string, city: string, time_ago: string, minutes: int}> */
     public array $purchasers = [];
